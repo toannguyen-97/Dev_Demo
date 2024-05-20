@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeThingToDoView" customModule="GMA" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="vam-Y3-eyR" id="dRe-68-x9K"/>
+                <outlet property="lblTitle" destination="XIK-0A-G88" id="bch-lM-C2q"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8rw-PK-drU">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="392"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GGT-Ha-g7u">
+                    <rect key="frame" x="20" y="0.0" width="394" height="34"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rec" translatesAutoresizingMaskIntoConstraints="NO" id="azZ-AR-v2l">
+                            <rect key="frame" x="0.0" y="0.0" width="20" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="Zo0-k4-Fnd"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Inspiration for Your Trips" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIK-0A-G88">
+                            <rect key="frame" x="28" y="8" width="358" height="18"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l4O-oQ-qDJ">
+                            <rect key="frame" x="0.0" y="33" width="394" height="1"/>
+                            <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="HRg-ba-reu"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="l4O-oQ-qDJ" firstAttribute="leading" secondItem="GGT-Ha-g7u" secondAttribute="leading" id="1Kr-oM-lG8"/>
+                        <constraint firstItem="XIK-0A-G88" firstAttribute="top" secondItem="GGT-Ha-g7u" secondAttribute="top" constant="8" id="HMa-oL-B6l"/>
+                        <constraint firstItem="XIK-0A-G88" firstAttribute="leading" secondItem="azZ-AR-v2l" secondAttribute="trailing" constant="8" id="Phe-56-6El"/>
+                        <constraint firstAttribute="bottom" secondItem="l4O-oQ-qDJ" secondAttribute="bottom" id="bea-Po-Okg"/>
+                        <constraint firstAttribute="trailing" secondItem="XIK-0A-G88" secondAttribute="trailing" constant="8" id="iFT-9Y-zTr"/>
+                        <constraint firstAttribute="bottom" secondItem="azZ-AR-v2l" secondAttribute="bottom" id="pMv-Y7-TVx"/>
+                        <constraint firstItem="azZ-AR-v2l" firstAttribute="top" secondItem="GGT-Ha-g7u" secondAttribute="top" id="pgg-6d-TC9"/>
+                        <constraint firstItem="azZ-AR-v2l" firstAttribute="leading" secondItem="GGT-Ha-g7u" secondAttribute="leading" id="q1p-wc-lCI"/>
+                        <constraint firstAttribute="bottom" secondItem="XIK-0A-G88" secondAttribute="bottom" constant="8" id="t3M-ZL-PMd"/>
+                        <constraint firstAttribute="trailing" secondItem="l4O-oQ-qDJ" secondAttribute="trailing" id="uk7-cq-kEP"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="vam-Y3-eyR">
+                    <rect key="frame" x="10" y="59" width="404" height="303"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="vam-Y3-eyR" secondAttribute="height" multiplier="4:3" id="nZn-Mn-L5X"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BLc-Bv-Y1U">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="aMV-4N-WAf"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vam-Y3-eyR" firstAttribute="leading" secondItem="8rw-PK-drU" secondAttribute="leading" constant="10" id="Pve-cO-3Wv"/>
+                <constraint firstItem="GGT-Ha-g7u" firstAttribute="top" secondItem="8rw-PK-drU" secondAttribute="top" id="U8V-bv-EYS"/>
+                <constraint firstAttribute="trailing" secondItem="GGT-Ha-g7u" secondAttribute="trailing" id="Uag-X5-3qH"/>
+                <constraint firstItem="vam-Y3-eyR" firstAttribute="top" secondItem="GGT-Ha-g7u" secondAttribute="bottom" constant="25" id="rdf-X0-89E"/>
+                <constraint firstItem="GGT-Ha-g7u" firstAttribute="leading" secondItem="8rw-PK-drU" secondAttribute="leading" constant="20" id="sCm-Gs-GUM"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="vam-Y3-eyR" secondAttribute="bottom" constant="30" id="uPf-kx-HAS"/>
+                <constraint firstAttribute="trailing" secondItem="vam-Y3-eyR" secondAttribute="trailing" id="woZ-m8-mua"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="327.536231884058" y="2.6785714285714284"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="rec" width="21.333333969116211" height="21.333333969116211"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactViewController" customModule="GMA" customModuleProvider="target">
+            <connections>
+                <outlet property="btnChat" destination="qnO-XA-hcB" id="YhY-cy-CHr"/>
+                <outlet property="btnClose" destination="eC3-0B-60v" id="WXG-m9-akP"/>
+                <outlet property="btnTalk" destination="fsV-3G-zUA" id="10Q-Lc-LQ1"/>
+                <outlet property="view" destination="f8N-0m-nYB" id="sNk-wE-bZM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="f8N-0m-nYB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eC3-0B-60v">
+                    <rect key="frame" x="156.66666666666666" y="723" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="BCj-Hy-2EU"/>
+                        <constraint firstAttribute="width" secondItem="eC3-0B-60v" secondAttribute="height" multiplier="1:1" id="THw-Qf-anf"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="btn_round"/>
+                    <connections>
+                        <action selector="closeWithSender:" destination="-1" eventType="touchUpInside" id="ase-c7-k8x"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnO-XA-hcB">
+                    <rect key="frame" x="196.66666666666666" y="617" width="107.99999999999997" height="106"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="btn_round_green"/>
+                    <connections>
+                        <action selector="chatWithSender:" destination="-1" eventType="touchUpInside" id="H7O-hw-h7Y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsV-3G-zUA">
+                    <rect key="frame" x="88.666666666666686" y="617" width="108" height="106"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="btn_talk_green"/>
+                    <connections>
+                        <action selector="talkWithSender:" destination="-1" eventType="touchUpInside" id="UAV-QF-zed"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="1Ll-1u-IXO"/>
+            <color key="backgroundColor" systemColor="systemGray2Color"/>
+            <constraints>
+                <constraint firstItem="qnO-XA-hcB" firstAttribute="height" secondItem="eC3-0B-60v" secondAttribute="height" multiplier="1.325" id="23B-qg-dNl"/>
+                <constraint firstItem="fsV-3G-zUA" firstAttribute="width" secondItem="eC3-0B-60v" secondAttribute="width" multiplier="1.35" id="2zf-nc-nv0"/>
+                <constraint firstItem="qnO-XA-hcB" firstAttribute="width" secondItem="eC3-0B-60v" secondAttribute="width" multiplier="1.35" id="8IC-Io-cyB"/>
+                <constraint firstItem="eC3-0B-60v" firstAttribute="centerX" secondItem="f8N-0m-nYB" secondAttribute="centerX" id="Ie0-ia-fHo"/>
+                <constraint firstItem="qnO-XA-hcB" firstAttribute="leading" secondItem="fsV-3G-zUA" secondAttribute="trailing" id="Van-e8-lv4"/>
+                <constraint firstItem="eC3-0B-60v" firstAttribute="top" secondItem="qnO-XA-hcB" secondAttribute="bottom" id="Zuv-M9-330"/>
+                <constraint firstItem="qnO-XA-hcB" firstAttribute="leading" secondItem="eC3-0B-60v" secondAttribute="trailing" constant="-40" id="cXN-4K-VlO"/>
+                <constraint firstItem="1Ll-1u-IXO" firstAttribute="bottom" secondItem="eC3-0B-60v" secondAttribute="bottom" constant="15" id="l6r-5W-iJB"/>
+                <constraint firstItem="fsV-3G-zUA" firstAttribute="bottom" secondItem="qnO-XA-hcB" secondAttribute="bottom" id="swD-Gv-P8H"/>
+                <constraint firstItem="fsV-3G-zUA" firstAttribute="height" secondItem="eC3-0B-60v" secondAttribute="height" multiplier="1.325" id="yZf-Lf-rgf"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="65.625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_round" width="54" height="54"/>
+        <image name="btn_round_green" width="54" height="54"/>
+        <image name="btn_talk_green" width="54" height="54"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>European</string>
+	<string>Barbecue</string>
+	<string>Southern American</string>
+	<string>Italian</string>
+	<string>Europe</string>
+	<string>Cajun</string>
+	<string>Chinese</string>
+	<string>Tuscan</string>
+	<string>Georgian</string>
+	<string>Peruvian</string>
+	<string>British</string>
+	<string>Others</string>
+	<string>Austrian</string>
+	<string>Cuban</string>
+	<string>German</string>
+	<string>Contemporary</string>
+	<string>Coastal</string>
+	<string>Vegetarian</string>
+	<string>Caviar</string>
+	<string>Continental</string>
+	<string>International</string>
+	<string>Steakhouse</string>
+	<string>Gastropub</string>
+	<string>Catalan</string>
+	<string>Modern</string>
+	<string>Latin</string>
+	<string>Oysters</string>
+	<string>Cajun/Creole</string>
+	<string>Canadian</string>
+	<string>Vegan</string>
+	<string>Fusion</string>
+	<string>Japanese</string>
+	<string>Californian</string>
+	<string>Basque</string>
+	<string>Caribbean</string>
+	<string>Scandanavian</string>
+	<string>Thai</string>
+	<string>Swedish</string>
+	<string>Spanish</string>
+	<string>Mexican</string>
+	<string>Organic</string>
+	<string>Szechuan</string>
+	<string>Pizza</string>
+	<string>North America</string>
+	<string>Venezuelan</string>
+	<string>Korean</string>
+	<string>Brazilian</string>
+	<string>Hawaiian</string>
+	<string>Asian</string>
+	<string>Scandinavian</string>
+	<string>Middle Eastern</string>
+	<string>Sushi</string>
+	<string>Raw Bar</string>
+	<string>Halal</string>
+	<string>Argentinian</string>
+	<string>Dim Sum</string>
+	<string>Russian</string>
+	<string>Filipino</string>
+	<string>Pacific Northwest</string>
+	<string>French</string>
+	<string>Western</string>
+	<string>Greek</string>
+	<string>Australian</string>
+	<string>American</string>
+	<string>Jewish</string>
+	<string>Seafood</string>
+	<string>Portuguese</string>
+	<string>Tapas</string>
+	<string>Turkish</string>
+	<string>African</string>
+	<string>Sichuan</string>
+	<string>Indochine</string>
+	<string>Indian</string>
+	<string>Cantonese</string>
+	<string>Mediterranean</string>
+	<string>Nordic</string>
+	<string>Vietnamese</string>
+	<string>Farm-to-table</string>
+</array>
+</plist>

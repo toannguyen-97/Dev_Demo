@@ -1,0 +1,6 @@
+framework module Pods_GMA_Production {
+  umbrella header "Pods-GMA-Production-umbrella.h"
+
+  export *
+  module * { export * }
+}

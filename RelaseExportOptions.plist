@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>teamID</key>
+	<string>YX5297KK9G</string>
+	<key>compileBitcode</key>
+	<true/>
+	<key>method</key>
+	<string>app-store</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.aspirelifestyles.ios.gma</key>
+		<string>dadc8c4b-d36b-459c-82ef-ca2c6373f1a3</string>
+	</dict>
+</dict>
+</plist>
