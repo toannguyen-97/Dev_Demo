@@ -110,7 +110,7 @@ class HomeSpecialOfferView: BaseCustomView , UICollectionViewDelegate, UICollect
 //            self.lblIndex.text = "1"
 //            return self.offersArray.count * 1000
 //        }
-        return 10
+        return 5
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
