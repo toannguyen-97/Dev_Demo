@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "351BD712-6A1B-45DB-8997-7705003D9A14"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFD81FEC-3594-411D-B389-B4992DD03AB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GMA/ViewControllers/Explorer/Limo/LimoTripQuotationDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "setText()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04D99F94-4C3F-434F-B099-E6B6A05CBCAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GMA/ViewControllers/Requests/RequestCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "limoBookingInfo"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "04D99F94-4C3F-434F-B099-E6B6A05CBCAA - 10f8e37a600c9288"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GMA.RequestCell.limoBookingInfo.didset : Swift.Optional&lt;GMA.GetQuoteResponse&gt;"
+                  moduleName = "GMA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dat.tran/group-mobile-application-ios/GMA/GMA/ViewControllers/Requests/RequestCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "8868">
+               </Location>
+               <Location
+                  uuid = "04D99F94-4C3F-434F-B099-E6B6A05CBCAA - 10f8e37a600c9288"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GMA.RequestCell.limoBookingInfo.didset : Swift.Optional&lt;GMA.GetQuoteResponse&gt;"
+                  moduleName = "GMA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dat.tran/group-mobile-application-ios/GMA/GMA/ViewControllers/Requests/RequestCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "8912">
+               </Location>
+               <Location
+                  uuid = "04D99F94-4C3F-434F-B099-E6B6A05CBCAA - 10f8e37a600c9288"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GMA.RequestCell.limoBookingInfo.didset : Swift.Optional&lt;GMA.GetQuoteResponse&gt;"
+                  moduleName = "GMA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dat.tran/group-mobile-application-ios/GMA/GMA/ViewControllers/Requests/RequestCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "8900">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE5411D2-89AB-4859-A796-79D0C61CD273"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GMA/ViewControllers/Explorer/Limo/LimoTripSummaryDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "263"
+            endingLineNumber = "263"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AF4B797-AAF8-448A-B758-4086D3FF8C69"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GMA/ViewControllers/Explorer/Limo/LimoTripSummaryDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1AF4B797-AAF8-448A-B758-4086D3FF8C69 - 113b2c814ab6f62f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GMA.LimoTripSummaryDetailViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "GMA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dat.tran/group-mobile-application-ios/GMA/GMA/ViewControllers/Explorer/Limo/LimoTripSummaryDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "251"
+                  endingLineNumber = "251"
+                  offsetFromSymbolStart = "12980">
+               </Location>
+               <Location
+                  uuid = "1AF4B797-AAF8-448A-B758-4086D3FF8C69 - 113b2c814ab6f62f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GMA.LimoTripSummaryDetailViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "GMA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dat.tran/group-mobile-application-ios/GMA/GMA/ViewControllers/Explorer/Limo/LimoTripSummaryDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "251"
+                  endingLineNumber = "251"
+                  offsetFromSymbolStart = "13464">
+               </Location>
+               <Location
+                  uuid = "1AF4B797-AAF8-448A-B758-4086D3FF8C69 - 113b2c814ab6f62f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GMA.LimoTripSummaryDetailViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "GMA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dat.tran/group-mobile-application-ios/GMA/GMA/ViewControllers/Explorer/Limo/LimoTripSummaryDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "251"
+                  endingLineNumber = "251"
+                  offsetFromSymbolStart = "13948">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

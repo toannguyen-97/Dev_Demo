@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="GMA" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomView" destination="HHw-q9-kSW" id="Q6P-Ys-7Vc"/>
+                <outlet property="cardsView" destination="CHW-3a-2s0" id="A00-jf-cvO"/>
+                <outlet property="morePicksForYouView" destination="RwF-Xh-pDx" id="AyO-9A-iIj"/>
+                <outlet property="phoneVerification" destination="nDO-dw-FCO" id="Tie-FW-lhD"/>
+                <outlet property="scrollView" destination="6vD-tv-Tg7" id="NAa-KI-yDg"/>
+                <outlet property="specialOfferView" destination="6i0-Mq-hf8" id="yd1-Xb-PF9"/>
+                <outlet property="suggestionView" destination="vYN-Iv-9ff" id="Fuf-PH-r10"/>
+                <outlet property="thingToDoView" destination="2Sr-5r-lOK" id="jfW-KL-kDu"/>
+                <outlet property="topCitiesListView" destination="wfD-9y-vSN" id="0NN-qe-lh1"/>
+                <outlet property="topView" destination="vl2-3v-6El" id="uyf-an-YLR"/>
+                <outlet property="trendingView" destination="w0i-Hi-ave" id="TTm-E5-7Lh"/>
+                <outlet property="upcomingView" destination="FUW-js-MSY" id="3zu-Hq-KjO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="Yur-c4-1be"/>
+                <outlet property="youMightAlsoLikeView" destination="mTJ-Y2-r6e" id="53M-JQ-3eN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="2417"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6vD-tv-Tg7">
+                    <rect key="frame" x="0.0" y="59" width="393" height="2324"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7rp-Z1-dib">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="2417"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vl2-3v-6El" customClass="HomeTopView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="128"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="128" id="Ddk-sr-fd6"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nDO-dw-FCO" customClass="HomePhoneVerification" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="128" width="393" height="150"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="150" id="Rqm-63-xO5"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FUW-js-MSY" customClass="HomeUpcomingView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="278" width="393" height="250"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="250" id="VZ5-Kl-JmC"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CHW-3a-2s0" customClass="HomeCardsView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="528" width="393" height="128"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="128" id="uMN-Cg-Qgf"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfD-9y-vSN" customClass="HomeCityView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="656" width="393" height="128"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="128" id="uxY-lX-UrI"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6i0-Mq-hf8" customClass="HomeSpecialOfferView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="784" width="393" height="128"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="128" id="2mR-iQ-zTl"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Sr-5r-lOK" customClass="HomeThingToDoView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="912" width="393" height="128"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="128" id="9ik-yK-r65"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYN-Iv-9ff" customClass="HomeSuggestionView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="1040" width="393" height="128"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="128" id="t1c-lo-p3c"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w0i-Hi-ave" customClass="HomeTrendingView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="1168" width="393" height="128"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="128" id="nEP-jv-wca"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RwF-Xh-pDx" customClass="HomeMorePicksForYouView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="1296" width="393" height="128"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="128" id="5Ra-kn-sQK"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mTJ-Y2-r6e" customClass="HomeYouMightAlsoLikeView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="1424" width="393" height="128"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="128" id="Nhv-nQ-80d"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HHw-q9-kSW" customClass="HomeBottomView" customModule="GMA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="1552" width="393" height="865"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="250" constant="128" id="3l1-px-PZb"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="7rp-Z1-dib" firstAttribute="top" secondItem="6vD-tv-Tg7" secondAttribute="top" id="KUG-Ou-QJl"/>
+                        <constraint firstAttribute="bottom" secondItem="7rp-Z1-dib" secondAttribute="bottom" id="WGU-Fu-QD0"/>
+                        <constraint firstAttribute="trailing" secondItem="7rp-Z1-dib" secondAttribute="trailing" id="c5g-tg-1dV"/>
+                        <constraint firstItem="7rp-Z1-dib" firstAttribute="leading" secondItem="6vD-tv-Tg7" secondAttribute="leading" id="qDn-HJ-wM7"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="7rp-Z1-dib" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" priority="250" id="2Re-eT-X6f"/>
+                <constraint firstItem="6vD-tv-Tg7" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="3tH-Az-YKr"/>
+                <constraint firstItem="6vD-tv-Tg7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="8S8-J5-Xab"/>
+                <constraint firstItem="6vD-tv-Tg7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="HsD-ap-AGu"/>
+                <constraint firstItem="7rp-Z1-dib" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="IVQ-62-1RX"/>
+                <constraint firstItem="6vD-tv-Tg7" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="bOi-35-hE6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="75.572519083969468" y="-1598.943661971831"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
