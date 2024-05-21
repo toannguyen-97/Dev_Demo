@@ -33,8 +33,6 @@ class HomeViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        self.view.backgroundColor = Colors.navigationBarTitle
         self.view.backgroundColor = Colors.navigationBarTitle
         // TopView
         self.topView.parrentVC = self
