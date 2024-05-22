@@ -18,6 +18,7 @@
 				DBD757636947084FAF6B4BD1C219706B /* PBXTargetDependency */,
 			);
 			name = Firebase;
+			productName = Firebase;
 		};
 		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
 			isa = PBXAggregateTarget;
@@ -28,6 +29,7 @@
 			dependencies = (
 			);
 			name = GooglePlaces;
+			productName = GooglePlaces;
 		};
 		826D2B8A623D3E511158A9D879AB45EC /* LPMessagingSDK */ = {
 			isa = PBXAggregateTarget;
@@ -38,6 +40,7 @@
 			dependencies = (
 			);
 			name = LPMessagingSDK;
+			productName = LPMessagingSDK;
 		};
 		AC19F10B2BC2AC4E94CD31A1DBFE217F /* Adyen3DS2 */ = {
 			isa = PBXAggregateTarget;
@@ -48,6 +51,7 @@
 			dependencies = (
 			);
 			name = Adyen3DS2;
+			productName = Adyen3DS2;
 		};
 		B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */ = {
 			isa = PBXAggregateTarget;
@@ -60,6 +64,7 @@
 				E0612F7BC7D38A15386661C76C97BAB8 /* PBXTargetDependency */,
 			);
 			name = GoogleAppMeasurement;
+			productName = GoogleAppMeasurement;
 		};
 		C49E7A4D59E5C8BE8DE9FB1EFB150185 /* FirebaseAnalytics */ = {
 			isa = PBXAggregateTarget;
@@ -75,6 +80,7 @@
 				63E56E000000D27F11440D75876BD081 /* PBXTargetDependency */,
 			);
 			name = FirebaseAnalytics;
+			productName = FirebaseAnalytics;
 		};
 /* End PBXAggregateTarget section */
 
@@ -89,7 +95,7 @@
 		023F4463C04E8E619DEC7BD2FE06B10C /* CardComponentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23641972648B8A62745EAACFB8421F7C /* CardComponentConfiguration.swift */; };
 		02621C4B82398D0657F474E21493A3A2 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2901F5B83AFBFCF13B0D2B29C8345E0B /* HTTPMethod.swift */; };
 		02629876C765A5156C937DDFC51AE7E9 /* SDAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7098027FC491E40B069ECF6DF68996FB /* SDAssociatedObject.m */; };
-		02745C73CE2BF2E336FE2C6C5D62CFE6 /* Adyen-AdyenCard in Resources */ = {isa = PBXBuildFile; fileRef = 54696477D63651952A5FEC89197E2FD5 /* Adyen-AdyenCard */; };
+		02745C73CE2BF2E336FE2C6C5D62CFE6 /* AdyenCard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54696477D63651952A5FEC89197E2FD5 /* AdyenCard.bundle */; };
 		02831CEF113C4970B385A122E24B52C6 /* SDImageCachesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C22ED57ADFD9CF8E2D51F713EF57DB /* SDImageCachesManager.m */; };
 		02A7B8DAA0295EF95D904230AB56EED1 /* PhoneExtensionInputControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432ADB9457D9B5DC5D88E9D9C8524A93 /* PhoneExtensionInputControl.swift */; };
 		02B0B24A9D727BDD57E55DBB3075A884 /* SDKAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FFFDC336DFD0DEA04088FDCE5B7EA8 /* SDKAction.swift */; };
@@ -703,7 +709,7 @@
 		76552F8B92D432E90E610D315771DDE3 /* FIRInstallationsErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 2403A3D42C3FE25AA24161C0E3EA79F9 /* FIRInstallationsErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76B0C3DC45002F6C2EA47012703F0D45 /* FBLPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 041A5791CA0E579264417CCB673472F2 /* FBLPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76EF4037EA4F9F9DB7A7C3B6257AF123 /* GDTCOREvent_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 820C7C8A68534D2161237AD6F69CD262 /* GDTCOREvent_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7724D12C42DEA208936A1295E2F4B9AC /* Adyen-Adyen in Resources */ = {isa = PBXBuildFile; fileRef = 62EDE30B0211BF2E20B653E57DBD7606 /* Adyen-Adyen */; };
+		7724D12C42DEA208936A1295E2F4B9AC /* Adyen.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62EDE30B0211BF2E20B653E57DBD7606 /* Adyen.bundle */; };
 		7775A18DD90E1C859C70FF1094B7299A /* GDTCORStorageEventSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A3205E48EF0EF51CC8E0E7DB1F4287 /* GDTCORStorageEventSelector.m */; };
 		77F582C1EE847D1BD350892010DF9796 /* FIRCurrentDateProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD40199E445F4103793A89C5EF49B0CC /* FIRCurrentDateProvider.m */; };
 		77F962473478E923E3A6F5682F4302DA /* IssuerListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153490E4E37AE76A1289772365E03B41 /* IssuerListComponent.swift */; };
@@ -753,7 +759,7 @@
 		7E89B091CE8E251F45A50DD3575D58F4 /* SDInternalMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 742869329B757142A12BCF1F7AAF13DD /* SDInternalMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7E959B871645A811D47489384328A26E /* GDTCORLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5916B4B94AB6387FC7478F2E53D2CEB0 /* GDTCORLifecycle.m */; };
 		7EB968C4D28681301747B5388CB60259 /* GDTCORFlatFileStorage+Promises.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C704D2DB518F55AC5F0434CA38E84E5 /* GDTCORFlatFileStorage+Promises.m */; };
-		7EBCC82BDA06C66C40CE9AD252B4687E /* Adyen-AdyenActions in Resources */ = {isa = PBXBuildFile; fileRef = B9B34F43AD97AC38A1589975E99EC6A8 /* Adyen-AdyenActions */; };
+		7EBCC82BDA06C66C40CE9AD252B4687E /* AdyenActions.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9B34F43AD97AC38A1589975E99EC6A8 /* AdyenActions.bundle */; };
 		7ECD3D95AE41ABF4597DB4658D02E47A /* UIViewRoundingHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7300FAE6101953F81FAB42880E53238 /* UIViewRoundingHelpers.swift */; };
 		7ECDF4BCF9074F1DB94635BD9AFA85AF /* FormValueItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E62B7486359AD21457CD2BE62B6BF0 /* FormValueItemView.swift */; };
 		7F39F0ECACBC4F85DF8331C61632D61F /* GiftCardComponent+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426510A28A689D0D271EB8CA3F40D6B /* GiftCardComponent+Extensions.swift */; };
@@ -2165,7 +2171,7 @@
 		04E76C402EE16646D4D50C25762AA729 /* ClientKeyValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientKeyValidator.swift; path = Adyen/Validators/ClientKeyValidator.swift; sourceTree = "<group>"; };
 		0535FC2AD7B9C7E87E5CFADDF7AC5C1D /* SegmentedControlStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedControlStyle.swift; path = Adyen/UI/Styles/SegmentedControlStyle.swift; sourceTree = "<group>"; };
 		0543B269EF4DCF3B00DB21A00CAD52F6 /* FIRComponentContainerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentContainerInternal.h; path = FirebaseCore/Sources/FIRComponentContainerInternal.h; sourceTree = "<group>"; };
-		054F948399BF99F02C83F33868602899 /* FIRCLSCrashedMarkerFile.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSCrashedMarkerFile.c; path = Crashlytics/Crashlytics/Components/FIRCLSCrashedMarkerFile.c; sourceTree = "<group>"; };
+		054F948399BF99F02C83F33868602899 /* FIRCLSCrashedMarkerFile.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSCrashedMarkerFile.c; path = Crashlytics/Crashlytics/Components/FIRCLSCrashedMarkerFile.c; sourceTree = "<group>"; };
 		05620F50E4CCBD249B33B3D46CF106E6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "cs-CZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		05720C608590E305E32A22FE9BDFD55B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		057D6A3E7AF57F2020C1BEF7D9220450 /* FIRCLSOnDemandModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSOnDemandModel.h; path = Crashlytics/Crashlytics/Models/FIRCLSOnDemandModel.h; sourceTree = "<group>"; };
@@ -2184,7 +2190,7 @@
 		067A0403F42C01505AF34CE815BDE569 /* FIRApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRApp.h; path = FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h; sourceTree = "<group>"; };
 		06C6370200593C92AF01CB57019A8214 /* BinLookupRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinLookupRequest.swift; path = AdyenCard/Utilities/BinLookup/BinLookupRequest.swift; sourceTree = "<group>"; };
 		06E11852116D280035E7D43239DD93DB /* FirebaseSessionsError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirebaseSessionsError.swift; path = FirebaseSessions/Sources/FirebaseSessionsError.swift; sourceTree = "<group>"; };
-		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0786ADCC79071923AFBD1268375D3569 /* IBANSpecification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBANSpecification.swift; path = Adyen/Utilities/IBANSpecification.swift; sourceTree = "<group>"; };
 		07C2FB9C17C76FB1CA3A9F485A31C3BF /* Adyen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adyen.debug.xcconfig; sourceTree = "<group>"; };
 		07E7642700E57FD87F404FAA21F0B72F /* UILabelHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelHelpers.swift; path = Adyen/Helpers/UILabelHelpers.swift; sourceTree = "<group>"; };
@@ -2213,13 +2219,13 @@
 		0A5E7003CBF078CB027E34EE2CF19482 /* ThreeDS2ClassicActionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreeDS2ClassicActionHandler.swift; path = "AdyenActions/Components/3DS2/Action handlers/ThreeDS2ClassicActionHandler.swift"; sourceTree = "<group>"; };
 		0A93C708368EEADFDCD5CA8C76348C7C /* TelemetryTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelemetryTracker.swift; path = Adyen/Analytics/AnalyticsProvider/TelemetryTracker.swift; sourceTree = "<group>"; };
 		0AB7989A897CE8C9815F549DE638D9F4 /* FIRCLSUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSUtility.m; path = Crashlytics/Crashlytics/Helpers/FIRCLSUtility.m; sourceTree = "<group>"; };
-		0B0A505C9048805222FF2D60177DFA4C /* FIRCLSDwarfUnwind.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSDwarfUnwind.c; path = Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDwarfUnwind.c; sourceTree = "<group>"; };
+		0B0A505C9048805222FF2D60177DFA4C /* FIRCLSDwarfUnwind.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSDwarfUnwind.c; path = Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDwarfUnwind.c; sourceTree = "<group>"; };
 		0B38E70FCECB6CB388D77E6FDC721185 /* IQKeyboardManager+Toolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Toolbar.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Toolbar.swift"; sourceTree = "<group>"; };
 		0BB40FCE55AB62820F5A622170E2BE78 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
 		0C1E0731308E1E18ED28606BAAB8A1C4 /* FIRComponentContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentContainer.h; path = FirebaseCore/Extension/FIRComponentContainer.h; sourceTree = "<group>"; };
 		0C6861DC167377D92EFD748E535D5BBF /* ListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListItem.swift; path = Adyen/UI/List/ListItem.swift; sourceTree = "<group>"; };
 		0C70CA92A0E58A8DD62079162A56AA4E /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		0CAAD989B5A5D78613EEF05DF254F6AB /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleAppMeasurementIdentitySupport.xcframework; path = Frameworks/GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		0CAAD989B5A5D78613EEF05DF254F6AB /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurementIdentitySupport.xcframework; path = Frameworks/GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
 		0D1F3414ECB9370309E43AC2E1DA72CC /* PaymentAwareComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentAwareComponent.swift; path = "Adyen/Core/Core Protocols/PaymentAwareComponent.swift"; sourceTree = "<group>"; };
 		0D35EA9014296994493F8DB3E1CF3859 /* GDTCORTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORTransport.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORTransport.m; sourceTree = "<group>"; };
 		0D4535679F7DFCF691F92F393A63FE00 /* AddressInputFormViewController+ViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AddressInputFormViewController+ViewModel.swift"; path = "Adyen/UI/View Controllers/AddressLookup/Form/AddressInputFormViewController+ViewModel.swift"; sourceTree = "<group>"; };
@@ -2246,7 +2252,7 @@
 		103780D4D44EBD33259A7878FD3805B3 /* DefaultAddressViewModelBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAddressViewModelBuilder.swift; path = Adyen/UI/Form/Items/Address/DefaultAddressViewModelBuilder.swift; sourceTree = "<group>"; };
 		103F05F315C89AB11333B06A6A42201E /* RetryAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryAPIClient.swift; path = AdyenNetworking/APIClient/RetryAPIClient.swift; sourceTree = "<group>"; };
 		1040DECD2323D2DB3F830D8C87E293CE /* QRCodeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeView.swift; path = "AdyenActions/UI/View Controllers/QR Code/QRCodeView.swift"; sourceTree = "<group>"; };
-		105F26D835D5F497B3C3FFC276D26D82 /* FIRCLSDwarfExpressionMachine.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSDwarfExpressionMachine.c; path = Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDwarfExpressionMachine.c; sourceTree = "<group>"; };
+		105F26D835D5F497B3C3FFC276D26D82 /* FIRCLSDwarfExpressionMachine.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSDwarfExpressionMachine.c; path = Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDwarfExpressionMachine.c; sourceTree = "<group>"; };
 		107FCD588CEAF3A37C406D4B72505EE0 /* InstantPaymentComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstantPaymentComponent.swift; path = Adyen/Core/Components/InstantPaymentComponent.swift; sourceTree = "<group>"; };
 		10B59FD5B620765D1BE1D3B9B416E23A /* PromisesObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesObjC-dummy.m"; sourceTree = "<group>"; };
 		10BA59AD6CC3A0BF52E6714C01C4A626 /* FIRInstallationsIIDStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstallationsIIDStore.h; path = FirebaseInstallations/Source/Library/IIDMigration/FIRInstallationsIIDStore.h; sourceTree = "<group>"; };
@@ -2311,14 +2317,14 @@
 		1B86A91045B1333BC017AFF8C1858634 /* FIRInstallationsLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstallationsLogger.m; path = FirebaseInstallations/Source/Library/FIRInstallationsLogger.m; sourceTree = "<group>"; };
 		1BB4419E68431970C45839141B02D371 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
 		1BE835D870E8263E7E524C34049A9116 /* URLHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLHelpers.swift; path = AdyenNetworking/Helpers/URLHelpers.swift; sourceTree = "<group>"; };
-		1BF33A29BA90B03A51D66687ED396DE0 /* FIRCLSCompactUnwind.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSCompactUnwind.c; path = Crashlytics/Crashlytics/Unwind/Compact/FIRCLSCompactUnwind.c; sourceTree = "<group>"; };
+		1BF33A29BA90B03A51D66687ED396DE0 /* FIRCLSCompactUnwind.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSCompactUnwind.c; path = Crashlytics/Crashlytics/Unwind/Compact/FIRCLSCompactUnwind.c; sourceTree = "<group>"; };
 		1C0165091E9756CA0AA1CCEB570C5B72 /* Promise+Do.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Do.swift"; path = "Sources/Promises/Promise+Do.swift"; sourceTree = "<group>"; };
 		1C0A4E9E763227106F7FC4B5036B74D6 /* FBLPromise+Catch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Catch.h"; path = "Sources/FBLPromises/include/FBLPromise+Catch.h"; sourceTree = "<group>"; };
 		1C12BEBC8F6B1E52C5867B409E0C5E69 /* Coder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coder.swift; path = AdyenNetworking/Helpers/Coder.swift; sourceTree = "<group>"; };
 		1C4D93493C2D6A1073419A9F69790ACC /* GULReachabilityMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityMessageCode.h; path = GoogleUtilities/Reachability/GULReachabilityMessageCode.h; sourceTree = "<group>"; };
 		1C723B3C94034669273416CDE9226C57 /* FIRLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLibrary.h; path = FirebaseCore/Extension/FIRLibrary.h; sourceTree = "<group>"; };
 		1C9AAD78EDAD3EF5B81F52D981A03F81 /* FIRConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRConfiguration.h; path = FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h; sourceTree = "<group>"; };
-		1CB9202C0E5E02B0105F901E93A146B1 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		1CB9202C0E5E02B0105F901E93A146B1 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_encode.c; sourceTree = "<group>"; };
 		1CBE575EFC569C54337E5D6782E08803 /* ClientKeyRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientKeyRequest.swift; path = Adyen/Core/APIClient/Requests/ClientKeyRequest.swift; sourceTree = "<group>"; };
 		1CFD3C30D9F418910525F8FE46264CF6 /* ComponentError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentError.swift; path = Adyen/Core/Errors/ComponentError.swift; sourceTree = "<group>"; };
 		1D50EF5C3B584A1744946A2203B75B4D /* FirebaseCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FirebaseCore-Info.plist"; sourceTree = "<group>"; };
@@ -2346,7 +2352,7 @@
 		2081DF238F946D16DEC232787A2C5663 /* UIButtonHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonHelpers.swift; path = Adyen/Helpers/UIButtonHelpers.swift; sourceTree = "<group>"; };
 		20B12FA120F061F47DCE12E91A29FE54 /* GULSceneDelegateSwizzler_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSceneDelegateSwizzler_Private.h; path = GoogleUtilities/AppDelegateSwizzler/Internal/GULSceneDelegateSwizzler_Private.h; sourceTree = "<group>"; };
 		20F69BB216B6EDDD8775D7CAB60019A3 /* AdyenNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdyenNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		2132687D9DAD8C585D4A34D294ADFF0B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = IQKeyboardManagerSwift/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2132687D9DAD8C585D4A34D294ADFF0B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = IQKeyboardManagerSwift/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		213C08B46211A375E4B66BC0CA5E1DA3 /* FirebaseCoreInternal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseCoreInternal.release.xcconfig; sourceTree = "<group>"; };
 		2196735F8415C7A2451CBF32A317F41C /* SessionsProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionsProvider.swift; path = FirebaseSessions/Sources/Public/SessionsProvider.swift; sourceTree = "<group>"; };
 		21A4E59FCE719069D640A77D80CA51A7 /* WeChatPayPaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeChatPayPaymentMethod.swift; path = "Adyen/Core/Payment Methods/WeChatPayPaymentMethod.swift"; sourceTree = "<group>"; };
@@ -2370,7 +2376,7 @@
 		2468851D89EF887126755BF0C327D569 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/Core/SDWebImageCompat.m; sourceTree = "<group>"; };
 		24DFCDC6533922DABFAE26E399BD3304 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "da-DK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		24EDAA40180568F9E35C5E6A7610E301 /* GDTCORReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORReachability.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORReachability.h; sourceTree = "<group>"; };
-		252A9A9964E594FF0CE4411B515E35C9 /* FIRCLSUnwind.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSUnwind.c; path = Crashlytics/Crashlytics/Unwind/FIRCLSUnwind.c; sourceTree = "<group>"; };
+		252A9A9964E594FF0CE4411B515E35C9 /* FIRCLSUnwind.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSUnwind.c; path = Crashlytics/Crashlytics/Unwind/FIRCLSUnwind.c; sourceTree = "<group>"; };
 		252B126AEB9D1AFEB18ACBCF007CE18F /* FormSearchButtonItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSearchButtonItemView.swift; path = Adyen/UI/Form/Items/Button/SearchButton/FormSearchButtonItemView.swift; sourceTree = "<group>"; };
 		2586B07CE4FC2413287809FA14448669 /* GDTCORRegistrar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORRegistrar.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORRegistrar.h; sourceTree = "<group>"; };
 		25913CDBE578C06CB13244379B9008E7 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/Core/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
@@ -2403,7 +2409,7 @@
 		2A9CCF6263FB30ED4E1AECDA6E682864 /* FIRCLSSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSSettings.h; path = Crashlytics/Crashlytics/Models/FIRCLSSettings.h; sourceTree = "<group>"; };
 		2AB8587F8B2604D93FEE00E6C1D9639E /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/Core/SDDiskCache.h; sourceTree = "<group>"; };
 		2AD0E782A3B5CA0045FD640F38C495D5 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/Core/UIImage+GIF.h"; sourceTree = "<group>"; };
-		2B2479C7BE300EE966442E5E7F3821DF /* FIRCLSProcess.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSProcess.c; path = Crashlytics/Crashlytics/Components/FIRCLSProcess.c; sourceTree = "<group>"; };
+		2B2479C7BE300EE966442E5E7F3821DF /* FIRCLSProcess.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSProcess.c; path = Crashlytics/Crashlytics/Components/FIRCLSProcess.c; sourceTree = "<group>"; };
 		2B87920BFAE774BB55D57A01C3F8A950 /* ApplePayStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplePayStyle.swift; path = Adyen/UI/Styles/ApplePayStyle.swift; sourceTree = "<group>"; };
 		2BA8AC2F049CC238557ECB065176C69E /* FIRCLSUserDefaults_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSUserDefaults_private.h; path = Crashlytics/Crashlytics/FIRCLSUserDefaults/FIRCLSUserDefaults_private.h; sourceTree = "<group>"; };
 		2BF52F361B144E6CF7F71B0EA5B29669 /* Amount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Amount.swift; path = Adyen/Model/Amount.swift; sourceTree = "<group>"; };
@@ -2443,10 +2449,10 @@
 		331D22CED48F3487951D9C603B004886 /* StorePaymentMethodFieldAware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorePaymentMethodFieldAware.swift; path = Adyen/Model/StorePaymentMethodFieldAware.swift; sourceTree = "<group>"; };
 		332536C1F3D72266E9778928906B202E /* FIRInstallationsBackoffController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstallationsBackoffController.h; path = FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsBackoffController.h; sourceTree = "<group>"; };
 		332B0951CE23663D1532D9DDE4B773F2 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
-		3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromisesObjC; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		338AB06DA90A3648A4C018ECE7F47A6A /* AtomePaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomePaymentMethod.swift; path = "Adyen/Core/Payment Methods/AtomePaymentMethod.swift"; sourceTree = "<group>"; };
 		341221C5C4AE261AB87BCDDD681472F7 /* GoogleUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleUtilities-dummy.m"; sourceTree = "<group>"; };
-		341A9659B612370977FF7B16FA916B52 /* crashlytics.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crashlytics.nanopb.c; path = Crashlytics/Protogen/nanopb/crashlytics.nanopb.c; sourceTree = "<group>"; };
+		341A9659B612370977FF7B16FA916B52 /* crashlytics.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crashlytics.nanopb.c; path = Crashlytics/Protogen/nanopb/crashlytics.nanopb.c; sourceTree = "<group>"; };
 		344595E8AB31FFE8A2DE2B102D31696E /* PartialPaymentComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PartialPaymentComponent.swift; path = "Adyen/Core/Core Protocols/PartialPaymentComponent.swift"; sourceTree = "<group>"; };
 		344AC259CCD9AA2832F30A6EB7A5FAC1 /* BoletoPaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoletoPaymentMethod.swift; path = "Adyen/Core/Payment Methods/BoletoPaymentMethod.swift"; sourceTree = "<group>"; };
 		346998506EB13D383BA985AE855553DD /* SearchViewController+ViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SearchViewController+ViewModel.swift"; path = "Adyen/UI/View Controllers/SearchViewController/SearchViewController+ViewModel.swift"; sourceTree = "<group>"; };
@@ -2471,18 +2477,18 @@
 		37687BAA307276D263D3E4239AF9D163 /* FormSplitItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSplitItem.swift; path = Adyen/UI/Form/Items/Split/FormSplitItem.swift; sourceTree = "<group>"; };
 		3779ACFDBAFBE6F1042AB83BA910D54F /* ViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewStyle.swift; path = Adyen/UI/Styles/ViewStyle.swift; sourceTree = "<group>"; };
 		379E2906AE423B4CCD161B68311651B6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "sl-SI.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		379E5319BC6B4AE5613DFF7EEEAA6905 /* PromisesSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromisesSwift; path = Promises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		379E5319BC6B4AE5613DFF7EEEAA6905 /* Promises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Promises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AE56F49D3E125AEEA303547AB1C4A0 /* AlamofireNetworkActivityLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireNetworkActivityLogger-dummy.m"; sourceTree = "<group>"; };
 		37DA971574576D94563430B16723BB59 /* GDTCOREndpoints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCOREndpoints.m; path = GoogleDataTransport/GDTCORLibrary/GDTCOREndpoints.m; sourceTree = "<group>"; };
-		37E56A685BCA62A4A75944091D4EB9B5 /* Pods-GMA */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GMA"; path = Pods_GMA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37F48923FFF7AE743E0FA24B85742B3C /* FIRCLSProfiling.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSProfiling.c; path = Crashlytics/Crashlytics/Helpers/FIRCLSProfiling.c; sourceTree = "<group>"; };
+		37E56A685BCA62A4A75944091D4EB9B5 /* Pods_GMA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F48923FFF7AE743E0FA24B85742B3C /* FIRCLSProfiling.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSProfiling.c; path = Crashlytics/Crashlytics/Helpers/FIRCLSProfiling.c; sourceTree = "<group>"; };
 		380A616F150F90DCD9B885508E3E2CC7 /* ThreeDS2ChallengeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreeDS2ChallengeAction.swift; path = AdyenActions/Actions/ThreeDS2ChallengeAction.swift; sourceTree = "<group>"; };
 		38D019684BC5D7695D40C594C32E9E5A /* AdyenSessionResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdyenSessionResult.swift; path = AdyenSession/AdyenSessionResult.swift; sourceTree = "<group>"; };
 		390541502D55253F783ADD74CAC9E6A6 /* PaymentStatusResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentStatusResponse.swift; path = Adyen/Core/APIClient/Responses/PaymentStatusResponse.swift; sourceTree = "<group>"; };
 		390B035624B6BCC7B5AF7919E8077669 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		391CD8B967E72E27DC1A2111397DF785 /* Pods-GMA-Production.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMA-Production.modulemap"; sourceTree = "<group>"; };
 		39370EA1C9C0AB7A3A9EA71CFDF6E596 /* FormRegionPickerItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormRegionPickerItem.swift; path = Adyen/UI/Form/Items/Address/FormRegionPickerItem.swift; sourceTree = "<group>"; };
-		394775778BBD2BB964953CA5FA54F099 /* FIRCLSInternalLogging.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSInternalLogging.c; path = Crashlytics/Crashlytics/Helpers/FIRCLSInternalLogging.c; sourceTree = "<group>"; };
+		394775778BBD2BB964953CA5FA54F099 /* FIRCLSInternalLogging.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSInternalLogging.c; path = Crashlytics/Crashlytics/Helpers/FIRCLSInternalLogging.c; sourceTree = "<group>"; };
 		3958F9373072BB403F77DF84DE85F6A2 /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Timeout.h"; path = "Sources/FBLPromises/include/FBLPromise+Timeout.h"; sourceTree = "<group>"; };
 		397A1C22C4D4EE9676A6EC34279B0140 /* FormToggleItemStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormToggleItemStyle.swift; path = Adyen/UI/Form/Items/Toggle/FormToggleItemStyle.swift; sourceTree = "<group>"; };
 		397C371F54F6792E3C0AECC71EB4173F /* ComponentSections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSections.swift; path = AdyenDropIn/Utilities/ComponentSections.swift; sourceTree = "<group>"; };
@@ -2509,7 +2515,7 @@
 		3D09FEFC94BF4024B802B8F5BD9E1413 /* KeyboardObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardObserver.swift; path = Adyen/Utilities/KeyboardObserver.swift; sourceTree = "<group>"; };
 		3D499463FF561AA28CE846B842F76D76 /* DropInConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropInConfiguration.swift; path = AdyenDropIn/Models/DropInConfiguration.swift; sourceTree = "<group>"; };
 		3D9F0B62E067AD50D3EF811EAC1D541F /* PaymentMethodType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethodType.swift; path = "Adyen/Core/Payment Methods/Abstract/PaymentMethodType.swift"; sourceTree = "<group>"; };
-		3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ListPlaceholder; path = ListPlaceholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ListPlaceholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDFEAD41E1F08A365FD22F726178687 /* ResultHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultHelpers.swift; path = Adyen/Helpers/ResultHelpers.swift; sourceTree = "<group>"; };
 		3DE8875B0C0F790FA8C4ECE689A4D095 /* StoredInstantPaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoredInstantPaymentMethod.swift; path = "Adyen/Core/Payment Methods/StoredInstantPaymentMethod.swift"; sourceTree = "<group>"; };
 		3DECF56A2A0BD15C690CEC33986623D2 /* Assertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assertion.swift; path = Adyen/Utilities/Debugging/Assertion.swift; sourceTree = "<group>"; };
@@ -2537,7 +2543,7 @@
 		4105CA5AC34BF605F5D7C5B6C9CB9390 /* APIContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIContext.swift; path = Adyen/Core/APIClient/APIContext.swift; sourceTree = "<group>"; };
 		410D4E6CEE636363A0D654677DC869C0 /* GDTCORReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORReachability.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORReachability.m; sourceTree = "<group>"; };
 		4115D4FC40D8BB82212390D1B2168816 /* IQKeyboardManagerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.release.xcconfig; sourceTree = "<group>"; };
-		417D3A017539F9FE67AF2F690174AE94 /* FIRCLSDataParsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSDataParsing.c; path = Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDataParsing.c; sourceTree = "<group>"; };
+		417D3A017539F9FE67AF2F690174AE94 /* FIRCLSDataParsing.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSDataParsing.c; path = Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDataParsing.c; sourceTree = "<group>"; };
 		418DF27B4511F405A5187A202A53C68B /* BackoffScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackoffScheduler.swift; path = AdyenNetworking/APIClient/BackoffScheduler.swift; sourceTree = "<group>"; };
 		419EB927FE64BF5CEAFAC4F51D8E04B4 /* FIRHeartbeatLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRHeartbeatLogger.h; path = FirebaseCore/Extension/FIRHeartbeatLogger.h; sourceTree = "<group>"; };
 		41A343F5923C1200F31E4FBF2A4905AA /* GDTCCTUploadOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTUploadOperation.m; path = GoogleDataTransport/GDTCCTLibrary/GDTCCTUploadOperation.m; sourceTree = "<group>"; };
@@ -2557,7 +2563,7 @@
 		44AE1D447CF804959531FD6949DE8E9F /* GULReachabilityChecker+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GULReachabilityChecker+Internal.h"; path = "GoogleUtilities/Reachability/GULReachabilityChecker+Internal.h"; sourceTree = "<group>"; };
 		44B13D721ABE7663D482B83AAEFDE1D5 /* FBLPromise+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Delay.m"; path = "Sources/FBLPromises/FBLPromise+Delay.m"; sourceTree = "<group>"; };
 		4500BFEC55341A2D8A34D93BA146DC0A /* FirebaseCoreExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FirebaseCoreExtension-prefix.pch"; sourceTree = "<group>"; };
-		451A0C7E2186F3C81A4A8B359FE21AEE /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FirebaseAnalytics.xcframework; path = Frameworks/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		451A0C7E2186F3C81A4A8B359FE21AEE /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = Frameworks/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
 		457992AAD7EA334EB3E3D506A9DDD586 /* CopyLabelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CopyLabelView.swift; path = Adyen/UI/Views/CopyLabelView.swift; sourceTree = "<group>"; };
 		458B10F12698E29BF7973131F09AAD47 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		459E8953BA681D4987C6D1F7D637BE8D /* DocumentComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocumentComponent.swift; path = AdyenActions/Components/Document/DocumentComponent.swift; sourceTree = "<group>"; };
@@ -2646,13 +2652,13 @@
 		544065BA7D1202329397F6CEE19EB5A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		544D22E441DE608CFFC3B89434C5A8A5 /* NSTextAlignmentHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTextAlignmentHelpers.swift; path = Adyen/Helpers/NSTextAlignmentHelpers.swift; sourceTree = "<group>"; };
 		5453100E191A1CD486AF5871FBC796E7 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		54696477D63651952A5FEC89197E2FD5 /* Adyen-AdyenCard */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Adyen-AdyenCard"; path = AdyenCard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		54696477D63651952A5FEC89197E2FD5 /* AdyenCard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdyenCard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A62F5F7AF890B3690C5189A9973661 /* GULAppDelegateSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppDelegateSwizzler.h; path = GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULAppDelegateSwizzler.h; sourceTree = "<group>"; };
 		55C96BE8922C8A3E6F56B3B00FD0A821 /* DevEventConsoleLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevEventConsoleLogger.swift; path = FirebaseSessions/Sources/Development/DevEventConsoleLogger.swift; sourceTree = "<group>"; };
 		55EEFA7D9773451609FB2592857FDF83 /* FIRCLSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSLogger.h; path = Crashlytics/Crashlytics/Helpers/FIRCLSLogger.h; sourceTree = "<group>"; };
 		55F4F095CD5B58B55650F1CBDAB4B655 /* NumericFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumericFormatter.swift; path = Adyen/Formatters/NumericFormatter.swift; sourceTree = "<group>"; };
 		56364B1517F6505D0424D689BD16C15A /* FBLPromise+Always.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Always.h"; path = "Sources/FBLPromises/include/FBLPromise+Always.h"; sourceTree = "<group>"; };
-		563926ED649B80743B6D11B9D4153741 /* sessions.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sessions.nanopb.c; path = FirebaseSessions/SourcesObjC/Protogen/nanopb/sessions.nanopb.c; sourceTree = "<group>"; };
+		563926ED649B80743B6D11B9D4153741 /* sessions.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sessions.nanopb.c; path = FirebaseSessions/SourcesObjC/Protogen/nanopb/sessions.nanopb.c; sourceTree = "<group>"; };
 		5643591C4F49AD12A31D1720D895B8A0 /* FirebaseCoreExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseCoreExtension.release.xcconfig; sourceTree = "<group>"; };
 		56586F319138A5CD7C03E77A14F2879C /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
 		56608E172884732416636F348661F28E /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
@@ -2662,7 +2668,7 @@
 		5734C9CE8607DA440471613DDA3BBF6F /* Pods-GMA-Production-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMA-Production-dummy.m"; sourceTree = "<group>"; };
 		573ECD622AB03B487DD37D7BD98A6D55 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		5746B42C0A354B265128E05DBEACC40E /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/Core/UIImage+Transform.h"; sourceTree = "<group>"; };
-		575F6F34E62B8DF4813100500C224E98 /* Adyen3DS2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Adyen3DS2.xcframework; path = XCFramework/Dynamic/Adyen3DS2.xcframework; sourceTree = "<group>"; };
+		575F6F34E62B8DF4813100500C224E98 /* Adyen3DS2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = Adyen3DS2.xcframework; path = XCFramework/Dynamic/Adyen3DS2.xcframework; sourceTree = "<group>"; };
 		57791C604F615F4465B543DF45097D2A /* AdyenDependencies.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdyenDependencies.swift; path = Adyen/Helpers/AdyenDependencies.swift; sourceTree = "<group>"; };
 		57C359916BCB71D4EC7B259DDABC71CB /* SDImageLoadersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoadersManager.m; path = SDWebImage/Core/SDImageLoadersManager.m; sourceTree = "<group>"; };
 		57CB85AB5E1AB3E298582AFB1605C1CD /* FormAddressItem+Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FormAddressItem+Configuration.swift"; path = "Adyen/UI/Form/Items/Address/FormAddressItem+Configuration.swift"; sourceTree = "<group>"; };
@@ -2697,7 +2703,7 @@
 		5D301D0376DCCD6AC9CEBE2D5FB2B8C4 /* UniqueAssetAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UniqueAssetAPIClient.swift; path = AdyenNetworking/APIClient/UniqueAssetAPIClient.swift; sourceTree = "<group>"; };
 		5D4947067C787B9E7EEF20D309995185 /* FIRCLSProcessReportOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSProcessReportOperation.h; path = Crashlytics/Crashlytics/Operations/Reports/FIRCLSProcessReportOperation.h; sourceTree = "<group>"; };
 		5D78246CD21AB2E75C00A2CB02119605 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7E3F7434D2DCD5D9407772C4F3A57B /* ContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerView.swift; path = Adyen/UI/Views/ContainerView.swift; sourceTree = "<group>"; };
 		5D947E76996E26FE69C37FF806701807 /* FIRCLSThreadArrayOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSThreadArrayOperation.h; path = Crashlytics/Crashlytics/Operations/Symbolication/FIRCLSThreadArrayOperation.h; sourceTree = "<group>"; };
 		5DCABD4B04941C1CB1AD1E2527B41D1A /* FIRInteropParameterNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInteropParameterNames.h; path = Interop/Analytics/Public/FIRInteropParameterNames.h; sourceTree = "<group>"; };
@@ -2735,7 +2741,7 @@
 		61D07EF46C0D8A23C815EDBB9541EEB3 /* Time.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Time.swift; path = FirebaseSessions/Sources/Time.swift; sourceTree = "<group>"; };
 		62BAEA26C6FCCCB8618E6973E333961B /* GoogleUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-umbrella.h"; sourceTree = "<group>"; };
 		62E62B7486359AD21457CD2BE62B6BF0 /* FormValueItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormValueItemView.swift; path = Adyen/UI/Form/Items/Value/FormValueItemView.swift; sourceTree = "<group>"; };
-		62EDE30B0211BF2E20B653E57DBD7606 /* Adyen-Adyen */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Adyen-Adyen"; path = Adyen.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EDE30B0211BF2E20B653E57DBD7606 /* Adyen.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adyen.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6346384113E80EF737377C4C01348263 /* FirebaseCoreInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FirebaseCoreInternal.h; path = FirebaseCore/Extension/FirebaseCoreInternal.h; sourceTree = "<group>"; };
 		634F8184FD6462437E69654C0CEC8BC8 /* Adyen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adyen-prefix.pch"; sourceTree = "<group>"; };
 		6375868D0176FD4C9E9EBF2C68445101 /* GDTCCTNanopbHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTNanopbHelpers.m; path = GoogleDataTransport/GDTCCTLibrary/GDTCCTNanopbHelpers.m; sourceTree = "<group>"; };
@@ -2816,7 +2822,7 @@
 		709F345219B7B08A429BC4329CC86BF5 /* FIRCLSMachOBinary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSMachOBinary.h; path = Crashlytics/Shared/FIRCLSMachO/FIRCLSMachOBinary.h; sourceTree = "<group>"; };
 		70F56385877B241E1A0E136ECE772766 /* SDImageFramePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFramePool.h; path = SDWebImage/Private/SDImageFramePool.h; sourceTree = "<group>"; };
 		70F62917011033F5BAD6BFFC7E46DBDE /* GiftCardPaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GiftCardPaymentMethod.swift; path = "Adyen/Core/Payment Methods/GiftCardPaymentMethod.swift"; sourceTree = "<group>"; };
-		71279BD496535C322027B83583C86F2C /* LPMessagingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = LPMessagingSDK.xcframework; sourceTree = "<group>"; };
+		71279BD496535C322027B83583C86F2C /* LPMessagingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = LPMessagingSDK.xcframework; sourceTree = "<group>"; };
 		712801DF8853E28A7D1EA97E1BE5656F /* AddressLookupSearchViewController+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AddressLookupSearchViewController+Style.swift"; path = "Adyen/UI/View Controllers/AddressLookup/Search/AddressLookupSearchViewController+Style.swift"; sourceTree = "<group>"; };
 		713A8BE27D1D45BD8C71DCDD2B0DF743 /* FirebaseCoreExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FirebaseCoreExtension.modulemap; sourceTree = "<group>"; };
 		71A99B5E9C61F59B58EA69714170D263 /* Adyen3DS2-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Adyen3DS2-xcframeworks.sh"; sourceTree = "<group>"; };
@@ -2874,7 +2880,7 @@
 		786D57E9804D5EE47E871C910168E4FD /* FIRCLSException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSException.h; path = Crashlytics/Crashlytics/Handlers/FIRCLSException.h; sourceTree = "<group>"; };
 		7877410AE04BDF85DB5C3056B1B70376 /* Promise+Recover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Recover.swift"; path = "Sources/Promises/Promise+Recover.swift"; sourceTree = "<group>"; };
 		7883C1621D62091FAD3CF6848659141A /* ACProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ACProgressView.swift; path = Source/ACProgressView.swift; sourceTree = "<group>"; };
-		78D0B7B2DED3F170A2453BCADA2F0A8E /* GooglePlaces.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GooglePlaces.xcframework; path = Frameworks/GooglePlaces.xcframework; sourceTree = "<group>"; };
+		78D0B7B2DED3F170A2453BCADA2F0A8E /* GooglePlaces.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GooglePlaces.xcframework; path = Frameworks/GooglePlaces.xcframework; sourceTree = "<group>"; };
 		78FB4B2C1DDFEAE6E07C8A77D4CE5CE4 /* GDTCORMetrics+GDTCCTSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GDTCORMetrics+GDTCCTSupport.m"; path = "GoogleDataTransport/GDTCCTLibrary/GDTCORMetrics+GDTCCTSupport.m"; sourceTree = "<group>"; };
 		796EF295AEA7F45F49A030EC6F828BA6 /* Promise+All.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+All.swift"; path = "Sources/Promises/Promise+All.swift"; sourceTree = "<group>"; };
 		79ABD6217C74D4C496DF0C8ADB5BB439 /* UIProgressViewHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIProgressViewHelpers.swift; path = Adyen/Helpers/UIProgressViewHelpers.swift; sourceTree = "<group>"; };
@@ -2887,7 +2893,7 @@
 		7B77FCFE518446D3ED10569A3221A9D7 /* FIROptionsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROptionsInternal.h; path = FirebaseCore/Extension/FIROptionsInternal.h; sourceTree = "<group>"; };
 		7B85F8DA0944F0EC7A11A398A330DCFE /* ACProgressView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ACProgressView.xib; path = Source/ACProgressView.xib; sourceTree = "<group>"; };
 		7B9E0B73F156910A4304DA4B5B2D5184 /* SDImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOCoder.h; path = SDWebImage/Core/SDImageIOCoder.h; sourceTree = "<group>"; };
-		7BC512D72B32A0AAF2C5124DCDF6C9A3 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
+		7BC512D72B32A0AAF2C5124DCDF6C9A3 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_decode.c; sourceTree = "<group>"; };
 		7C15346055A80F15595C8E9FDB70C71A /* PhoneNumberValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberValidator.swift; path = Adyen/Validators/PhoneNumberValidator.swift; sourceTree = "<group>"; };
 		7C773676F331DA3C8B48E606FA2293C0 /* AnyCardPaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyCardPaymentMethod.swift; path = "Adyen/Core/Payment Methods/Abstract/AnyCardPaymentMethod.swift"; sourceTree = "<group>"; };
 		7CD88683E021EB06F6B580F3694FC7C9 /* NSConstraintHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSConstraintHelper.swift; path = Adyen/Helpers/NSConstraintHelper.swift; sourceTree = "<group>"; };
@@ -2897,7 +2903,7 @@
 		7D64396ACAC23B580EF41AECB8CF5AC0 /* Pods-GMA-Production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMA-Production.debug.xcconfig"; sourceTree = "<group>"; };
 		7D66D264AC0B8D59F7604CDB5CE48466 /* FIRInteropEventNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInteropEventNames.h; path = Interop/Analytics/Public/FIRInteropEventNames.h; sourceTree = "<group>"; };
 		7DF203A5F7C56EB0D6301DC303A85F32 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
-		7E045C789D4B4628EEE79FBA62199A00 /* FIRCLSMachException.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSMachException.c; path = Crashlytics/Crashlytics/Handlers/FIRCLSMachException.c; sourceTree = "<group>"; };
+		7E045C789D4B4628EEE79FBA62199A00 /* FIRCLSMachException.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSMachException.c; path = Crashlytics/Crashlytics/Handlers/FIRCLSMachException.c; sourceTree = "<group>"; };
 		7E60D6E5C5399643E65F68972C628878 /* AnyThreeDS2ActionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyThreeDS2ActionHandler.swift; path = "AdyenActions/Components/3DS2/Action handlers/AnyThreeDS2ActionHandler.swift"; sourceTree = "<group>"; };
 		7EBE215F0BB3644419CE0304E5650319 /* FormPickerItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerItem.swift; path = Adyen/UI/Form/Items/Value/Picker/FormPickerItem.swift; sourceTree = "<group>"; };
 		7ECF13BB386848479824EF0E36FEB61D /* FIROptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROptions.h; path = FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h; sourceTree = "<group>"; };
@@ -2942,7 +2948,7 @@
 		85209AB3A9A3DE82663147ADF1AF9591 /* FIRCLSDataParsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSDataParsing.h; path = Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDataParsing.h; sourceTree = "<group>"; };
 		855BA862DC800638F1CDE81E716EC8BA /* PromisesObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesObjC-Info.plist"; sourceTree = "<group>"; };
 		856913461756927852C4DFFFA499DFDB /* GDTCORTransport_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTransport_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORTransport_Private.h; sourceTree = "<group>"; };
-		856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleDataTransport; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8571725A557BDF701D6E9172951F2E9D /* EasyTipView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyTipView.debug.xcconfig; sourceTree = "<group>"; };
 		859092DAEBB76D62A7D111EAFBC77F7B /* Throttler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttler.swift; path = Adyen/Utilities/Throttler.swift; sourceTree = "<group>"; };
 		85C9F3F210F0988CD0FF8A4FB4C9B714 /* FIRLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLibrary.h; path = FirebaseCore/Extension/FIRLibrary.h; sourceTree = "<group>"; };
@@ -2968,7 +2974,7 @@
 		8938ACB4D05F7BC31EC468A1BABE8284 /* FIRCLSRecordBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSRecordBase.m; path = Crashlytics/Crashlytics/Models/Record/FIRCLSRecordBase.m; sourceTree = "<group>"; };
 		894731AE418F953D4CFBC956B4BEEAB4 /* SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoader.h; path = SDWebImage/Core/SDImageLoader.h; sourceTree = "<group>"; };
 		894782A3583D9E4D4E0FA10067C9F43A /* FBLPromise+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Testing.h"; path = "Sources/FBLPromises/include/FBLPromise+Testing.h"; sourceTree = "<group>"; };
-		897EB5D5515EC95E3FC97058D96A6770 /* FIRCLSUnwind_x86.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSUnwind_x86.c; path = Crashlytics/Crashlytics/Unwind/FIRCLSUnwind_x86.c; sourceTree = "<group>"; };
+		897EB5D5515EC95E3FC97058D96A6770 /* FIRCLSUnwind_x86.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSUnwind_x86.c; path = Crashlytics/Crashlytics/Unwind/FIRCLSUnwind_x86.c; sourceTree = "<group>"; };
 		89AEBEFD8050E657BBC00B09BEDBB07C /* TelemetryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelemetryRequest.swift; path = Adyen/Analytics/Requests/TelemetryRequest.swift; sourceTree = "<group>"; };
 		89B96B9F05E0BD7B2AAC94A8E17C6C10 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/Core/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		89C28842DF4CD62616B736144D8CA516 /* FIRCLSAnalyticsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSAnalyticsManager.h; path = Crashlytics/Crashlytics/Controllers/FIRCLSAnalyticsManager.h; sourceTree = "<group>"; };
@@ -2980,18 +2986,18 @@
 		8A2BF1868D390694B22DE66F1A9C4E6D /* FormPostalCodeItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPostalCodeItem.swift; path = Adyen/UI/Form/Items/Address/FormPostalCodeItem.swift; sourceTree = "<group>"; };
 		8A4AA0FD1B4804D8B2BCF8EC50F29FD1 /* BalanceChecker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BalanceChecker.swift; path = Adyen/Validators/BalanceChecker.swift; sourceTree = "<group>"; };
 		8A60ADB3DCB1E09F5AC1065B2D60FAD1 /* EventPublisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventPublisher.swift; path = Adyen/Utilities/Observable/EventPublisher.swift; sourceTree = "<group>"; };
-		8A63F6AA6A1D241970B6D28C2970A8B9 /* EasyTipView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyTipView; path = EasyTipView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A63F6AA6A1D241970B6D28C2970A8B9 /* EasyTipView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyTipView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA7E35C289EF8F49A5F6A6F3B9EE6AB /* PaymentsRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentsRequest.swift; path = AdyenSession/API/Payments/PaymentsRequest.swift; sourceTree = "<group>"; };
 		8AACEA62B4A4BC4390DBAAEA948F8354 /* KeychainAccess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.debug.xcconfig; sourceTree = "<group>"; };
-		8AB8ADE05BF6AC4736C971AA4FB2C6F8 /* cct.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cct.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/cct.nanopb.c; sourceTree = "<group>"; };
+		8AB8ADE05BF6AC4736C971AA4FB2C6F8 /* cct.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cct.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/cct.nanopb.c; sourceTree = "<group>"; };
 		8B1F783C077F82BF835E1969C98D9735 /* GULNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GULNSData+zlib.m"; path = "GoogleUtilities/NSData+zlib/GULNSData+zlib.m"; sourceTree = "<group>"; };
 		8B454950B4208DB7F68989B4AD4B0D75 /* AwaitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AwaitView.swift; path = "AdyenActions/UI/View Controllers/Await/AwaitView.swift"; sourceTree = "<group>"; };
 		8B49A27B7F6715AC9107A5E766561165 /* Adyen3DS2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adyen3DS2.debug.xcconfig; sourceTree = "<group>"; };
 		8B5C71886569A0BB429D52A60F753E65 /* ACProgressHUD-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ACProgressHUD-Swift-Info.plist"; sourceTree = "<group>"; };
 		8B62FA0F583374EF721B28469DBF7B06 /* FirebaseCrashlytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FirebaseCrashlytics-umbrella.h"; sourceTree = "<group>"; };
-		8B90C984ADE6CC4C9B8D360764CF0360 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
+		8B90C984ADE6CC4C9B8D360764CF0360 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_common.c; sourceTree = "<group>"; };
 		8B9BB0EA3D23D27338BB28030213533F /* SDImageFramePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFramePool.m; path = SDWebImage/Private/SDImageFramePool.m; sourceTree = "<group>"; };
-		8BAE0F6DD6FBBA1A93575D4DA5FCE629 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleAppMeasurement.xcframework; path = Frameworks/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		8BAE0F6DD6FBBA1A93575D4DA5FCE629 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = Frameworks/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
 		8BCE989FBC2CFFD8E53FA42C70521A47 /* FBLPromise+Then.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Then.h"; path = "Sources/FBLPromises/include/FBLPromise+Then.h"; sourceTree = "<group>"; };
 		8BE822C748EAFC99389F5E85D1559437 /* GULLoggerLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerLevel.h; path = GoogleUtilities/Logger/Public/GoogleUtilities/GULLoggerLevel.h; sourceTree = "<group>"; };
 		8BFBB0E4FE2D72C0C4D88CC8402C35DC /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
@@ -3028,7 +3034,7 @@
 		90FCC18DA8BC0A1787D066D36D0A0077 /* FIRCLSFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSFile.m; path = Crashlytics/Crashlytics/Helpers/FIRCLSFile.m; sourceTree = "<group>"; };
 		910B6401EA54B22F8AA3632B60B982B1 /* GoogleAppMeasurement-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleAppMeasurement-xcframeworks.sh"; sourceTree = "<group>"; };
 		9168606DE9E9960E5417968BAB82E036 /* NSImage+Compatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Compatibility.m"; path = "SDWebImage/Core/NSImage+Compatibility.m"; sourceTree = "<group>"; };
-		919E66190F92836158BD02BB8CD854FB /* FIRCLSAllocate.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSAllocate.c; path = Crashlytics/Crashlytics/Helpers/FIRCLSAllocate.c; sourceTree = "<group>"; };
+		919E66190F92836158BD02BB8CD854FB /* FIRCLSAllocate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSAllocate.c; path = Crashlytics/Crashlytics/Helpers/FIRCLSAllocate.c; sourceTree = "<group>"; };
 		91D3CDE8906AA6EB5DCB956FC8200A4D /* FIRInstallationsErrorUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstallationsErrorUtil.h; path = FirebaseInstallations/Source/Library/Errors/FIRInstallationsErrorUtil.h; sourceTree = "<group>"; };
 		9262978D9EEEC2A6C204220D6419195F /* ACProgressHUD-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACProgressHUD-Swift-umbrella.h"; sourceTree = "<group>"; };
 		9264F31CFEAD42445454E37237B0CF67 /* SDImageIOAnimatedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOAnimatedCoder.m; path = SDWebImage/Core/SDImageIOAnimatedCoder.m; sourceTree = "<group>"; };
@@ -3093,7 +3099,7 @@
 		9D161DAFFC16BE994AB134E7B6A6A7ED /* ApplePayComponentExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplePayComponentExtensions.swift; path = "AdyenComponents/Apple Pay/ApplePayComponentExtensions.swift"; sourceTree = "<group>"; };
 		9D4DD9C980446D1A259046CA19AB16A2 /* GDTCORStorageProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORStorageProtocol.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORStorageProtocol.h; sourceTree = "<group>"; };
 		9D5F9CFEB60EDBD1B6C452D689F434A1 /* ApplePayComponentDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplePayComponentDelegate.swift; path = "AdyenComponents/Apple Pay/ApplePayComponentDelegate.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9839DF8CAD8EF19D36463C49886759 /* FirebaseInstallations-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FirebaseInstallations-Info.plist"; sourceTree = "<group>"; };
 		9D9F0BA1DEA99AA45AFC8F9531097C75 /* ActionComponentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionComponentStyle.swift; path = "AdyenActions/UI/UI Style/ActionComponentStyle.swift"; sourceTree = "<group>"; };
 		9DEDE3C9509E0791A18ECCBE01924D3B /* StoredCardAlertManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoredCardAlertManager.swift; path = "AdyenCard/Components/Stored Card/StoredCardAlertManager.swift"; sourceTree = "<group>"; };
@@ -3165,7 +3171,7 @@
 		A83920D7161B38C81C52DE1CDC71A6F4 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/Core/NSButton+WebCache.m"; sourceTree = "<group>"; };
 		A84CD8045E82B4EE8D8291E8A7C3ED24 /* QRCodeComponentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeComponentStyle.swift; path = "AdyenActions/UI/UI Style/QRCodeComponentStyle.swift"; sourceTree = "<group>"; };
 		A8E2E58C84FFEB5158CF03A24F3B0335 /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
-		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A901D4E8E9FDFAE1AF3E656CB3EB26DE /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		A913035C4F55D1A216CA869C68A58951 /* FIRCLSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSLogger.m; path = Crashlytics/Crashlytics/Helpers/FIRCLSLogger.m; sourceTree = "<group>"; };
 		A91EB0CB3553F263F34ED52B6D04813C /* SDDeviceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDeviceHelper.m; path = SDWebImage/Private/SDDeviceHelper.m; sourceTree = "<group>"; };
@@ -3205,7 +3211,7 @@
 		AFCCA22FFD1D26760729B66A32D5ADA6 /* BinLookupService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinLookupService.swift; path = AdyenCard/Utilities/BinLookup/BinLookupService.swift; sourceTree = "<group>"; };
 		B00504C1630B89E59427DFCB229AA452 /* DimmingPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimmingPresentationController.swift; path = AdyenDropIn/Presentation/DimmingPresentationController.swift; sourceTree = "<group>"; };
 		B00E927D819DB05E3AAA49CD787D458B /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E0239C52AC35BC9EE333964C257C89 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
 		B0E78FB1AEDF6101B7226BF33D2AA7AA /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
 		B0EA2406B1A5D283022FAA1097284B2B /* FIRCLSSymbolicationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSSymbolicationOperation.h; path = Crashlytics/Crashlytics/Operations/Symbolication/FIRCLSSymbolicationOperation.h; sourceTree = "<group>"; };
@@ -3234,7 +3240,7 @@
 		B41556450090EFA6DE0EA472052BD232 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
 		B4248DC635426D07D9D241734A72E966 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = Adyen/UI/Form/Items/Text/TextField.swift; sourceTree = "<group>"; };
 		B424EA4DA913FE9BDCAE002DC7A4F355 /* FormTextInputItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextInputItemView.swift; path = Adyen/UI/Form/Items/Text/FormTextInputItemView.swift; sourceTree = "<group>"; };
-		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43B7156C114558E401FC54AD29EE51C /* NetworkInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkInfo.swift; path = FirebaseSessions/Sources/NetworkInfo.swift; sourceTree = "<group>"; };
 		B46688666E127F5E72B4F556449C8B92 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/Core/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		B47D78B86D5864246CD4267E8C2B46B0 /* ListHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListHeaderView.swift; path = Adyen/UI/List/ListHeaderView.swift; sourceTree = "<group>"; };
@@ -3266,7 +3272,7 @@
 		B97B4CDFC34233D7E9B03337E56F9683 /* GULReachabilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityChecker.h; path = GoogleUtilities/Reachability/Public/GoogleUtilities/GULReachabilityChecker.h; sourceTree = "<group>"; };
 		B9AA02DB6D86980037BF619720DB3AD9 /* VoucherSeparatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoucherSeparatorView.swift; path = "AdyenActions/UI/View Controllers/Voucher/VoucherSeparatorView.swift"; sourceTree = "<group>"; };
 		B9B04808323953698810712F13FDC28E /* FormValidatableValueItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormValidatableValueItem.swift; path = Adyen/UI/Form/Items/Value/Validatable/FormValidatableValueItem.swift; sourceTree = "<group>"; };
-		B9B34F43AD97AC38A1589975E99EC6A8 /* Adyen-AdyenActions */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Adyen-AdyenActions"; path = AdyenActions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B34F43AD97AC38A1589975E99EC6A8 /* AdyenActions.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdyenActions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BC00DA3C91DA2E4049DB0D430A8EEB /* DropInComponentExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropInComponentExtensions.swift; path = AdyenDropIn/DropInComponentExtensions.swift; sourceTree = "<group>"; };
 		B9FA8339F188A462265898E66CEF1059 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = CoreOnly/Sources/Firebase.h; sourceTree = "<group>"; };
 		BA0A033DB3C4207153415B45C06C53DC /* SubmitButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubmitButton.swift; path = Adyen/UI/Views/SubmitButton.swift; sourceTree = "<group>"; };
@@ -3317,7 +3323,7 @@
 		C1FD5C7BAE3AF5DC336B6ED9B5A1DF9E /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = Adyen/Validators/Validator.swift; sourceTree = "<group>"; };
 		C206E24F009830A778791032F2D5A8F6 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		C20773A6B202C95A30252B02ED872525 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/Core/UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		C211852873C936219BA70F13F26468EF /* FIRCLSException.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSException.mm; path = Crashlytics/Crashlytics/Handlers/FIRCLSException.mm; sourceTree = "<group>"; };
+		C211852873C936219BA70F13F26468EF /* FIRCLSException.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = FIRCLSException.mm; path = Crashlytics/Crashlytics/Handlers/FIRCLSException.mm; sourceTree = "<group>"; };
 		C2517226664403DF20EB267944B62DAD /* ThreeDS2FingerprintSubmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreeDS2FingerprintSubmitter.swift; path = "AdyenActions/Components/3DS2/Fingerprint Submitter/ThreeDS2FingerprintSubmitter.swift"; sourceTree = "<group>"; };
 		C26B2E32A5FFABD82055622BC97913BD /* FormSelectableValueItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectableValueItemView.swift; path = Adyen/UI/Form/Items/Value/Selectable/FormSelectableValueItemView.swift; sourceTree = "<group>"; };
 		C27DB193CC9AB66A9809C9732601C626 /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
@@ -3327,13 +3333,13 @@
 		C390D3D2D63BC155BB077BE804CCDBE9 /* FBLPromise+Wrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Wrap.h"; path = "Sources/FBLPromises/include/FBLPromise+Wrap.h"; sourceTree = "<group>"; };
 		C3E3B29C328313A7B7C3DE343E891FB6 /* FirebaseCoreExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseCoreExtension.debug.xcconfig; sourceTree = "<group>"; };
 		C4176606A0D24FD32A8C2121B19840EF /* FIRCLSReportUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSReportUploader.h; path = Crashlytics/Crashlytics/Controllers/FIRCLSReportUploader.h; sourceTree = "<group>"; };
-		C45DB19793D6E94D0EEE7F08F8A4A843 /* client_metrics.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = client_metrics.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/client_metrics.nanopb.c; sourceTree = "<group>"; };
+		C45DB19793D6E94D0EEE7F08F8A4A843 /* client_metrics.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = client_metrics.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/client_metrics.nanopb.c; sourceTree = "<group>"; };
 		C47BECC518ABCB056F24CE38EA0F59D5 /* Pods-GMA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMA-dummy.m"; sourceTree = "<group>"; };
 		C4B332081F936CC08D04DCFC27C15C6C /* CardSecurityCodeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardSecurityCodeFormatter.swift; path = AdyenCard/Formatters/CardSecurityCodeFormatter.swift; sourceTree = "<group>"; };
 		C51F34598F1E9A5B9F8EE8C4C575C5B9 /* GoogleDataTransport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDataTransport.release.xcconfig; sourceTree = "<group>"; };
 		C53AB753C8D31D4AA855B1A77028DFC2 /* FIRCLSApplicationIdentifierModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSApplicationIdentifierModel.m; path = Crashlytics/Crashlytics/Settings/Models/FIRCLSApplicationIdentifierModel.m; sourceTree = "<group>"; };
 		C5A65C586D63787CF1CA55906673C474 /* NanoPB+CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NanoPB+CustomStringConvertible.swift"; path = "FirebaseSessions/Sources/Development/NanoPB+CustomStringConvertible.swift"; sourceTree = "<group>"; };
-		C66CB46202CBC558AB0313DFBA14F92A /* FIRCLSUnwind_arm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSUnwind_arm.c; path = Crashlytics/Crashlytics/Unwind/FIRCLSUnwind_arm.c; sourceTree = "<group>"; };
+		C66CB46202CBC558AB0313DFBA14F92A /* FIRCLSUnwind_arm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSUnwind_arm.c; path = Crashlytics/Crashlytics/Unwind/FIRCLSUnwind_arm.c; sourceTree = "<group>"; };
 		C708C3CCF999F494AD64D0615EC04F85 /* FIRCLSMachO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSMachO.m; path = Crashlytics/Shared/FIRCLSMachO/FIRCLSMachO.m; sourceTree = "<group>"; };
 		C7222ABA91496623CEDE99FFE11F8F96 /* GULUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULUserDefaults.m; path = GoogleUtilities/UserDefaults/GULUserDefaults.m; sourceTree = "<group>"; };
 		C73870292EE9B7A63A49D8AE5B23154F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
@@ -3382,7 +3388,7 @@
 		CDC5910B7822637DC9D4CC80440A9CF3 /* FormPickerSearchViewController+EmptyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FormPickerSearchViewController+EmptyView.swift"; path = "Adyen/UI/Form/Items/Value/Picker/FormPickerSearchViewController+EmptyView.swift"; sourceTree = "<group>"; };
 		CDDC184607F92BA921B899F9F484D204 /* FIRCLSDwarfUnwindRegisters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSDwarfUnwindRegisters.h; path = Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDwarfUnwindRegisters.h; sourceTree = "<group>"; };
 		CE164644692D1DDEBBC9417362D9574C /* FirebaseSessions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirebaseSessions.swift; path = FirebaseSessions/Sources/FirebaseSessions.swift; sourceTree = "<group>"; };
-		CE356AE6C3F39F7F340D97178F1DE67F /* FIRCLSThreadState.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSThreadState.c; path = Crashlytics/Crashlytics/Helpers/FIRCLSThreadState.c; sourceTree = "<group>"; };
+		CE356AE6C3F39F7F340D97178F1DE67F /* FIRCLSThreadState.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSThreadState.c; path = Crashlytics/Crashlytics/Helpers/FIRCLSThreadState.c; sourceTree = "<group>"; };
 		CE461132134DD0D5C3975D4877AC925D /* Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = Adyen/Core/APIClient/Environment.swift; sourceTree = "<group>"; };
 		CE56F5D3CAE519DEC29A7327F869B609 /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
 		CE86A1F187C739B748AD8CE957951AE7 /* FirebaseCoreInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FirebaseCoreInternal.h; path = FirebaseCore/Extension/FirebaseCoreInternal.h; sourceTree = "<group>"; };
@@ -3445,7 +3451,7 @@
 		D8F9F2B5BA3CFCDDEACE1BDA30DF3CC0 /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Sources/EasyTipView/UIKitExtensions.swift; sourceTree = "<group>"; };
 		D932D3D2C048CC9A3F19A46D9060A530 /* GoogleDataTransport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleDataTransport.modulemap; sourceTree = "<group>"; };
 		D954170B8A47A51D47BB693AC93A20CD /* GDTCORTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTransformer.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORTransformer.h; sourceTree = "<group>"; };
-		D95AF7C116F790F56433095992AB610D /* ACProgressHUD-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "ACProgressHUD-Swift"; path = ACProgressHUD_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95AF7C116F790F56433095992AB610D /* ACProgressHUD_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACProgressHUD_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D962A09A29073B0B5308CA563C4FEE19 /* Promise+Race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Race.swift"; path = "Sources/Promises/Promise+Race.swift"; sourceTree = "<group>"; };
 		D982E4FF71D171533746C07CD66E4A4E /* FIRLoggerLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLoggerLevel.h; path = FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h; sourceTree = "<group>"; };
 		D9AE6B442FF8F9F341D72AD99B093414 /* Adyen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Adyen-Info.plist"; sourceTree = "<group>"; };
@@ -3503,7 +3509,7 @@
 		E3C3C066CB497ADA51D25DC3DC9147BF /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		E3C8AD43B291B60EB06F43A439E8597F /* FIRCLSCallStackTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSCallStackTree.h; path = Crashlytics/Crashlytics/Helpers/FIRCLSCallStackTree.h; sourceTree = "<group>"; };
 		E404DAA34B4AB7E23A56C2879A40191E /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		E40BA77A33CC14A2F4C22C5E6D880E8C /* FIRCLSSignal.c */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSSignal.c; path = Crashlytics/Crashlytics/Handlers/FIRCLSSignal.c; sourceTree = "<group>"; };
+		E40BA77A33CC14A2F4C22C5E6D880E8C /* FIRCLSSignal.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = FIRCLSSignal.c; path = Crashlytics/Crashlytics/Handlers/FIRCLSSignal.c; sourceTree = "<group>"; };
 		E41D54201FC1A7AFB4C01731CAEA2425 /* ListSectionFooterStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListSectionFooterStyle.swift; path = Adyen/UI/List/ListSectionFooterStyle.swift; sourceTree = "<group>"; };
 		E423A96C1E7B3E376B3B0986F5CC5796 /* InstallmentPickerElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstallmentPickerElement.swift; path = AdyenCard/Form/Installments/InstallmentPickerElement.swift; sourceTree = "<group>"; };
 		E43A82E25D409484DDE9FF1D35DEE0F5 /* FIRCLSURLBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSURLBuilder.m; path = Crashlytics/Shared/FIRCLSNetworking/FIRCLSURLBuilder.m; sourceTree = "<group>"; };
@@ -3529,7 +3535,7 @@
 		E8709208CC5E45AFCDDD1A19E0462F41 /* PollingComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PollingComponent.swift; path = AdyenActions/Components/Await/PollingComponent.swift; sourceTree = "<group>"; };
 		E8C4C70539401F45C349DE6079A88909 /* FIRCLSAnalyticsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSAnalyticsManager.m; path = Crashlytics/Crashlytics/Controllers/FIRCLSAnalyticsManager.m; sourceTree = "<group>"; };
 		E8C8AD1B02D1E738A9F332DE7CD8A0DF /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "el-GR.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E901B47EE25F9B2C8989C3019AA904C3 /* SDWebImageDownloaderConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderConfig.m; path = SDWebImage/Core/SDWebImageDownloaderConfig.m; sourceTree = "<group>"; };
 		E9274DB37317550F875B441F407C0911 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		E929946F6B6538C5DF09ED26707B7ACB /* AdyenCoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdyenCoder.swift; path = Adyen/Utilities/AdyenCoder.swift; sourceTree = "<group>"; };
@@ -3551,7 +3557,7 @@
 		EBBE69FA06D05B02F86F9E6A288F0357 /* PromisesSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesSwift-umbrella.h"; sourceTree = "<group>"; };
 		EBD4883D40D872D379253E82ADEE6076 /* EasyTipView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyTipView-dummy.m"; sourceTree = "<group>"; };
 		EBDD87D6C46AE91FF1A19D49A69CE6E0 /* BACSConfirmationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BACSConfirmationPresenter.swift; path = "AdyenComponents/BACS Direct Debit/Scenes/Confirmation/BACSConfirmationPresenter.swift"; sourceTree = "<group>"; };
-		EBEAC629DCA24795E2015F3C2C48233C /* Adyen */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Adyen; path = Adyen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEAC629DCA24795E2015F3C2C48233C /* Adyen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Adyen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC05250D3505B1C48A068D369CBEC4CD /* UIColor+SDHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SDHexString.h"; path = "SDWebImage/Private/UIColor+SDHexString.h"; sourceTree = "<group>"; };
 		EC182528E4DDA83E779A5D12C2249071 /* GULNetworkURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkURLSession.m; path = GoogleUtilities/Network/GULNetworkURLSession.m; sourceTree = "<group>"; };
 		EC1930D1737C4772D19C99E87B0C0103 /* ApplePayComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplePayComponent.swift; path = "AdyenComponents/Apple Pay/ApplePayComponent.swift"; sourceTree = "<group>"; };
@@ -3599,7 +3605,7 @@
 		F5B4B39065CF90CA33E6B882798F381C /* GDTCORTransformer_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTransformer_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORTransformer_Private.h; sourceTree = "<group>"; };
 		F5C22ED57ADFD9CF8E2D51F713EF57DB /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/Core/SDImageCachesManager.m; sourceTree = "<group>"; };
 		F5F135CF1BB7910BB4E8BED869ED8EA4 /* UIImageViewHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewHelpers.swift; path = Adyen/Helpers/UIImageViewHelpers.swift; sourceTree = "<group>"; };
-		F5F2A59A4D187F7409601C7E207C85A7 /* FIRCLSDemangleOperation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRCLSDemangleOperation.mm; path = Crashlytics/Crashlytics/Operations/Symbolication/FIRCLSDemangleOperation.mm; sourceTree = "<group>"; };
+		F5F2A59A4D187F7409601C7E207C85A7 /* FIRCLSDemangleOperation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = FIRCLSDemangleOperation.mm; path = Crashlytics/Crashlytics/Operations/Symbolication/FIRCLSDemangleOperation.mm; sourceTree = "<group>"; };
 		F62180221D9ECE702ED3A2C017AA0A4A /* AddressFormItemInjector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddressFormItemInjector.swift; path = Adyen/Core/Components/AbstractPersonalInformationComponent/AddressFormItemInjector.swift; sourceTree = "<group>"; };
 		F67D97481E4CE2299352EAAB7D41120E /* ReadyToSubmitPaymentComponentDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReadyToSubmitPaymentComponentDelegate.swift; path = "Adyen/Core/Core Protocols/ReadyToSubmitPaymentComponentDelegate.swift"; sourceTree = "<group>"; };
 		F698A563A03CED4F5EF6183F555F8338 /* Dimentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimentions.swift; path = Adyen/UI/Dimentions.swift; sourceTree = "<group>"; };
@@ -3891,7 +3897,6 @@
 				450E2CEB4A291445818620B128E8ABA5 /* AdIdSupport */,
 				CE75A9854BD089F6DFFAAEFF7B01A190 /* Support Files */,
 			);
-			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
@@ -4060,7 +4065,6 @@
 				9CB1E6A8882C1EDF762EC2AD8111B5FA /* Support Files */,
 				2E5F80AE5B3B8B920D66A73F5BA3FE24 /* WithoutAdIdSupport */,
 			);
-			name = GoogleAppMeasurement;
 			path = GoogleAppMeasurement;
 			sourceTree = "<group>";
 		};
@@ -4119,7 +4123,6 @@
 				DE89B6BF22BD30C290379CAD6AE509A1 /* FIRVersion.m */,
 				DC125E16F6F64C43DCA51940A1B5AF2A /* Support Files */,
 			);
-			name = FirebaseCore;
 			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
@@ -4150,7 +4153,6 @@
 				6F15DC04EB4648F62963A9792273B566 /* Session */,
 				AA662DC8CFEC055751A0BFDAA1BC19C6 /* Support Files */,
 			);
-			name = Adyen;
 			path = Adyen;
 			sourceTree = "<group>";
 		};
@@ -4193,7 +4195,6 @@
 				CE96B451A12541907C3DDDF8BDE19F51 /* PromiseError.swift */,
 				5824C01F45D63B2C88015DE1BEFC2680 /* Support Files */,
 			);
-			name = PromisesSwift;
 			path = PromisesSwift;
 			sourceTree = "<group>";
 		};
@@ -4234,7 +4235,6 @@
 				D8F9F2B5BA3CFCDDEACE1BDA30DF3CC0 /* UIKitExtensions.swift */,
 				ABCA58578DE46C91A65EB9DD5AD7451C /* Support Files */,
 			);
-			name = EasyTipView;
 			path = EasyTipView;
 			sourceTree = "<group>";
 		};
@@ -4252,7 +4252,6 @@
 				6D1FC0DB8C79A66F681B17C70EB739FA /* Keychain.swift */,
 				FE815B9188853F5B132B1FA554FDA1AF /* Support Files */,
 			);
-			name = KeychainAccess;
 			path = KeychainAccess;
 			sourceTree = "<group>";
 		};
@@ -4310,7 +4309,6 @@
 				21F224BF526EAEA64F41EE8E6200826C /* FIROptionsInternal.h */,
 				CC188B763CD73966193703EF28994FC2 /* Support Files */,
 			);
-			name = FirebaseInstallations;
 			path = FirebaseInstallations;
 			sourceTree = "<group>";
 		};
@@ -4320,7 +4318,6 @@
 				B124F0DD4BB5F5C0167F5216EE938695 /* NetworkActivityLogger.swift */,
 				A8602CC6F05FDC24C5E4F8CF0E3F30FB /* Support Files */,
 			);
-			name = AlamofireNetworkActivityLogger;
 			path = AlamofireNetworkActivityLogger;
 			sourceTree = "<group>";
 		};
@@ -4689,7 +4686,6 @@
 				D3D0D100FFF25CF835D341B591F581D8 /* ListLoader.swift */,
 				2909EB5DACBF3BB6241C8E63CD22B55C /* Support Files */,
 			);
-			name = ListPlaceholder;
 			path = ListPlaceholder;
 			sourceTree = "<group>";
 		};
@@ -4699,7 +4695,6 @@
 				BAA25AA95AE513035F5F719488E62A7D /* Frameworks */,
 				1D81C04A20674601E418F2A10E3F2F83 /* Support Files */,
 			);
-			name = Adyen3DS2;
 			path = Adyen3DS2;
 			sourceTree = "<group>";
 		};
@@ -4717,7 +4712,6 @@
 				30AD701A401EAFF6CD048B24C25ABD0B /* encode */,
 				E4B7E8B4B2C9F8B315976BE51B0395E9 /* Support Files */,
 			);
-			name = nanopb;
 			path = nanopb;
 			sourceTree = "<group>";
 		};
@@ -4738,7 +4732,6 @@
 				1F7DE1F96BA747C65CA924FAB89C9B2B /* Resources */,
 				0C5D233D4A9B31F168F75C35177897DC /* Support Files */,
 			);
-			name = "ACProgressHUD-Swift";
 			path = "ACProgressHUD-Swift";
 			sourceTree = "<group>";
 		};
@@ -4758,7 +4751,6 @@
 				B82B54720FE934077C1FC5BD5774E7C2 /* FIROptionsInternal.h */,
 				73E69FDBE8CFB13AC18122D2E814632B /* Support Files */,
 			);
-			name = FirebaseCoreExtension;
 			path = FirebaseCoreExtension;
 			sourceTree = "<group>";
 		};
@@ -4797,7 +4789,6 @@
 				61D07EF46C0D8A23C815EDBB9541EEB3 /* Time.swift */,
 				66830B9BE19EA40BF8F46733C9C2E8FF /* Support Files */,
 			);
-			name = FirebaseSessions;
 			path = FirebaseSessions;
 			sourceTree = "<group>";
 		};
@@ -4914,7 +4905,6 @@
 				0425461BB28825FF9B5C66FFDB3C7A05 /* FBLPromises.h */,
 				6B77710895FAAE68554EEE9972D5A1F4 /* Support Files */,
 			);
-			name = PromisesObjC;
 			path = PromisesObjC;
 			sourceTree = "<group>";
 		};
@@ -4949,7 +4939,6 @@
 				8DC2499352C046817437AE5B70A6C653 /* WeakContainer.swift */,
 				2A94E7BD5016CAA9A3ACF0E56A9FAB92 /* Support Files */,
 			);
-			name = FirebaseCoreInternal;
 			path = FirebaseCoreInternal;
 			sourceTree = "<group>";
 		};
@@ -5053,7 +5042,6 @@
 				951A4EA9F4AC25767CDBFB36D9326DE5 /* Support Files */,
 				1B7AC29272492745844D0FDAD65F929C /* UserDefaults */,
 			);
-			name = GoogleUtilities;
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
@@ -5188,7 +5176,6 @@
 				CA0D22D1C8713566BD955DF9FC4A8352 /* GoogleDataTransport.h */,
 				AF0F31B903427BC78AE84CC22B3EAC36 /* Support Files */,
 			);
-			name = GoogleDataTransport;
 			path = GoogleDataTransport;
 			sourceTree = "<group>";
 		};
@@ -5247,7 +5234,6 @@
 				369309674069DE106F7F360ED31EC098 /* Resources */,
 				11974F8B8793367EFCAB4FD2E9BBB284 /* Support Files */,
 			);
-			name = GooglePlaces;
 			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
@@ -5291,7 +5277,6 @@
 				B00E927D819DB05E3AAA49CD787D458B /* Validation.swift */,
 				A826B29B40F3AA5F0D669EA4FB65FB9D /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -5334,7 +5319,6 @@
 				88C761BC872D1D586F83FA47E9BBFB84 /* Resources */,
 				3C8B4BC345CDF2B570138FCCDE544F3B /* Support Files */,
 			);
-			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -5358,7 +5342,6 @@
 				B9EF5443D9BFC59E1C14124940CF32AE /* Core */,
 				BB577596B4A084AD2B1EE8D908CFF780 /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -5766,32 +5749,32 @@
 		BAE02A722523A5FECF4E1411B41344F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D95AF7C116F790F56433095992AB610D /* ACProgressHUD-Swift */,
-				EBEAC629DCA24795E2015F3C2C48233C /* Adyen */,
-				62EDE30B0211BF2E20B653E57DBD7606 /* Adyen-Adyen */,
-				B9B34F43AD97AC38A1589975E99EC6A8 /* Adyen-AdyenActions */,
-				54696477D63651952A5FEC89197E2FD5 /* Adyen-AdyenCard */,
+				D95AF7C116F790F56433095992AB610D /* ACProgressHUD_Swift.framework */,
+				EBEAC629DCA24795E2015F3C2C48233C /* Adyen.framework */,
+				62EDE30B0211BF2E20B653E57DBD7606 /* Adyen.bundle */,
+				B9B34F43AD97AC38A1589975E99EC6A8 /* AdyenActions.bundle */,
+				54696477D63651952A5FEC89197E2FD5 /* AdyenCard.bundle */,
 				16A76C5B8F842FF76E432B3B58C3A656 /* AdyenNetworking */,
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
 				4AF2E39AE7CBEB16BDCF1479813767A1 /* AlamofireNetworkActivityLogger */,
-				8A63F6AA6A1D241970B6D28C2970A8B9 /* EasyTipView */,
+				8A63F6AA6A1D241970B6D28C2970A8B9 /* EasyTipView.framework */,
 				E2B63D462DB7F827C4B11FD51E4F8E2D /* FirebaseCore */,
 				AEF1DC80F0EB62580B81D18786BAF924 /* FirebaseCoreExtension */,
 				148D0F9E8C7373FEAF40D800FC5F1BAA /* FirebaseCoreInternal */,
 				86375444C196BA272DDBB8165BF64A15 /* FirebaseCrashlytics */,
 				13C8C8B254851998F9289F71229B28A2 /* FirebaseInstallations */,
 				83F5CCB22EE126A829F2A8820798DC8D /* FirebaseSessions */,
-				856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport */,
-				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */,
-				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */,
-				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */,
-				3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder */,
-				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */,
-				37E56A685BCA62A4A75944091D4EB9B5 /* Pods-GMA */,
+				856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */,
+				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */,
+				3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder.framework */,
+				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
+				37E56A685BCA62A4A75944091D4EB9B5 /* Pods_GMA.framework */,
 				978C5D9EF1CA5D120F9BCD84E1E007A7 /* Pods-GMA-Production */,
-				3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */,
-				379E5319BC6B4AE5613DFF7EEEAA6905 /* PromisesSwift */,
-				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */,
+				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
+				379E5319BC6B4AE5613DFF7EEEAA6905 /* Promises.framework */,
+				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -5906,7 +5889,6 @@
 				BDBE0E5FD670549C78B38613C342402B /* URLSessionHelpers.swift */,
 				22F839E9C867219A88999274C978CF4C /* Support Files */,
 			);
-			name = AdyenNetworking;
 			path = AdyenNetworking;
 			sourceTree = "<group>";
 		};
@@ -5956,7 +5938,6 @@
 				C15AC4549A3B1D1F1AC09940D1EED3A0 /* Resources */,
 				41005EE6A3C082FA722F3BCC36D5DDFE /* Support Files */,
 			);
-			name = LPMessagingSDK;
 			path = LPMessagingSDK;
 			sourceTree = "<group>";
 		};
@@ -6161,7 +6142,6 @@
 				FB582E8F97C90612AC5841DEC66A59A1 /* FIRStackFrame_Private.h */,
 				17E43955D5B74F36EE8E03D96FF4FE4C /* Support Files */,
 			);
-			name = FirebaseCrashlytics;
 			path = FirebaseCrashlytics;
 			sourceTree = "<group>";
 		};
@@ -6206,7 +6186,6 @@
 				E8038FB5F9C025161B0179EEC207C0D4 /* CoreOnly */,
 				D9B98CB8C5DCEA2E666F39B6CB045158 /* Support Files */,
 			);
-			name = Firebase;
 			path = Firebase;
 			sourceTree = "<group>";
 		};
@@ -6788,7 +6767,7 @@
 			);
 			name = "Adyen-Adyen";
 			productName = Adyen;
-			productReference = 62EDE30B0211BF2E20B653E57DBD7606 /* Adyen-Adyen */;
+			productReference = 62EDE30B0211BF2E20B653E57DBD7606 /* Adyen.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		048D21E3C8151CD23D428D38093E1538 /* EasyTipView */ = {
@@ -6806,7 +6785,7 @@
 			);
 			name = EasyTipView;
 			productName = EasyTipView;
-			productReference = 8A63F6AA6A1D241970B6D28C2970A8B9 /* EasyTipView */;
+			productReference = 8A63F6AA6A1D241970B6D28C2970A8B9 /* EasyTipView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		25E9E9A17BC3F670357D7385C521E48E /* FirebaseCoreInternal */ = {
@@ -6843,7 +6822,7 @@
 			);
 			name = "ACProgressHUD-Swift";
 			productName = ACProgressHUD_Swift;
-			productReference = D95AF7C116F790F56433095992AB610D /* ACProgressHUD-Swift */;
+			productReference = D95AF7C116F790F56433095992AB610D /* ACProgressHUD_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */ = {
@@ -6861,7 +6840,7 @@
 			);
 			name = PromisesObjC;
 			productName = FBLPromises;
-			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */;
+			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3847153A6E5EEFB86565BA840768F429 /* SDWebImage */ = {
@@ -6879,7 +6858,7 @@
 			);
 			name = SDWebImage;
 			productName = SDWebImage;
-			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */;
+			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3F8EC37C78673149F2B94E8BD9AA8737 /* FirebaseSessions */ = {
@@ -6970,7 +6949,7 @@
 			);
 			name = GoogleDataTransport;
 			productName = GoogleDataTransport;
-			productReference = 856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport */;
+			productReference = 856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		615C831BCE925ED486B225B87E44926D /* KeychainAccess */ = {
@@ -6988,7 +6967,7 @@
 			);
 			name = KeychainAccess;
 			productName = KeychainAccess;
-			productReference = E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */;
+			productReference = E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		70FF9BB7D1DAAE07350D90D479E45B49 /* Adyen */ = {
@@ -7011,7 +6990,7 @@
 			);
 			name = Adyen;
 			productName = Adyen;
-			productReference = EBEAC629DCA24795E2015F3C2C48233C /* Adyen */;
+			productReference = EBEAC629DCA24795E2015F3C2C48233C /* Adyen.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		769010F3A7616DFC32EA74DC9741081D /* Pods-GMA-Production */ = {
@@ -7095,7 +7074,7 @@
 			);
 			name = ListPlaceholder;
 			productName = ListPlaceholder;
-			productReference = 3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder */;
+			productReference = 3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8AABDD06F1327BC62BE3ECBBB02AF715 /* AlamofireNetworkActivityLogger */ = {
@@ -7133,7 +7112,7 @@
 			);
 			name = GoogleUtilities;
 			productName = GoogleUtilities;
-			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */;
+			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A979F9D3632CD5F2F7518F9A362CBAE3 /* PromisesSwift */ = {
@@ -7152,7 +7131,7 @@
 			);
 			name = PromisesSwift;
 			productName = Promises;
-			productReference = 379E5319BC6B4AE5613DFF7EEEAA6905 /* PromisesSwift */;
+			productReference = 379E5319BC6B4AE5613DFF7EEEAA6905 /* Promises.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
@@ -7170,7 +7149,7 @@
 			);
 			name = IQKeyboardManagerSwift;
 			productName = IQKeyboardManagerSwift;
-			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */;
+			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CEA0E3815350660C5B5B2FDD0C84B97C /* Pods-GMA */ = {
@@ -7215,7 +7194,7 @@
 			);
 			name = "Pods-GMA";
 			productName = Pods_GMA;
-			productReference = 37E56A685BCA62A4A75944091D4EB9B5 /* Pods-GMA */;
+			productReference = 37E56A685BCA62A4A75944091D4EB9B5 /* Pods_GMA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */ = {
@@ -7233,7 +7212,7 @@
 			);
 			name = nanopb;
 			productName = nanopb;
-			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */;
+			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E0DF19EA6BA1C1C088016A2A4B558C5B /* AdyenNetworking */ = {
@@ -7268,7 +7247,7 @@
 			);
 			name = "Adyen-AdyenActions";
 			productName = AdyenActions;
-			productReference = B9B34F43AD97AC38A1589975E99EC6A8 /* Adyen-AdyenActions */;
+			productReference = B9B34F43AD97AC38A1589975E99EC6A8 /* AdyenActions.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		EA2773BDD3AE226A14958545740CC07B /* Adyen-AdyenCard */ = {
@@ -7285,7 +7264,7 @@
 			);
 			name = "Adyen-AdyenCard";
 			productName = AdyenCard;
-			productReference = 54696477D63651952A5FEC89197E2FD5 /* Adyen-AdyenCard */;
+			productReference = 54696477D63651952A5FEC89197E2FD5 /* AdyenCard.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -7303,7 +7282,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FE1DE31D91C32501251AE9687CDC2E0F /* FirebaseCoreExtension */ = {
@@ -7480,9 +7459,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7724D12C42DEA208936A1295E2F4B9AC /* Adyen-Adyen in Resources */,
-				7EBCC82BDA06C66C40CE9AD252B4687E /* Adyen-AdyenActions in Resources */,
-				02745C73CE2BF2E336FE2C6C5D62CFE6 /* Adyen-AdyenCard in Resources */,
+				7724D12C42DEA208936A1295E2F4B9AC /* Adyen.bundle in Resources */,
+				7EBCC82BDA06C66C40CE9AD252B4687E /* AdyenActions.bundle in Resources */,
+				02745C73CE2BF2E336FE2C6C5D62CFE6 /* AdyenCard.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
